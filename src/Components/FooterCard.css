@@ -1,0 +1,71 @@
+.publications {
+  box-sizing: border-box;
+  position: absolute;
+  width: 480px;
+  height: 176px;
+  left: 112px;
+  bottom: 0px;
+  background: rgba(69, 69, 69, 0.2);
+  backdrop-filter: blur(40px);
+  z-index: 10;
+  transform: translateY(40px);
+}
+
+.publications:hover {
+  transform: translateY(0px);
+  background: rgba(69, 69, 69, 0.4);
+}
+
+.projects {
+  box-sizing: border-box;
+  position: absolute;
+  width: 480px;
+  height: 320px;
+  left: 172px;
+  bottom: 0px;
+  background: rgba(69, 69, 69, 0.2);
+  backdrop-filter: blur(40px);
+  z-index: 0;
+  transform: translateY(40px);
+}
+
+.projects:hover {
+  transform: translateY(0px);
+  background: rgba(69, 69, 69, 0.4);
+}
+
+.team {
+  box-sizing: border-box;
+  position: absolute;
+  width: 480px;
+  height: 256px;
+  left: 592px;
+  bottom: 0px;
+  background: rgba(69, 69, 69, 0.2);
+  backdrop-filter: blur(40px);
+  z-index: 0;
+  transform: translateY(40px);
+}
+
+.team:hover {
+  transform: translateY(0px);
+  background: rgba(69, 69, 69, 0.4);
+}
+
+.events {
+  box-sizing: border-box;
+  position: absolute;
+  width: 480px;
+  height: 216px;
+  left: 832px;
+  bottom: 0px;
+  background: rgba(69, 69, 69, 0.2);
+  backdrop-filter: blur(40px);
+  z-index: 10;
+  transform: translateY(40px);
+}
+
+.events:hover {
+  transform: translateY(0px);
+  background: rgba(69, 69, 69, 0.4);
+}
