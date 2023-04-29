@@ -9,6 +9,7 @@
   backdrop-filter: blur(40px);
   z-index: 10;
   transform: translateY(40px);
+  transition-duration: 200ms;
 }
 
 .publications:hover {
@@ -27,6 +28,7 @@
   backdrop-filter: blur(40px);
   z-index: 0;
   transform: translateY(40px);
+  transition-duration: 200ms;
 }
 
 .projects:hover {
@@ -45,6 +47,7 @@
   backdrop-filter: blur(40px);
   z-index: 0;
   transform: translateY(40px);
+  transition-duration: 200ms;
 }
 
 .team:hover {
@@ -63,6 +66,7 @@
   backdrop-filter: blur(40px);
   z-index: 10;
   transform: translateY(40px);
+  transition-duration: 200ms;
 }
 
 .events:hover {

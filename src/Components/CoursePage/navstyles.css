@@ -1,0 +1,4 @@
+.btn-disabled {
+  background: rgba(48, 48, 48, 0.8);
+  backdrop-filter: blur(8px);
+}

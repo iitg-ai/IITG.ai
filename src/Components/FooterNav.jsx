@@ -13,10 +13,10 @@ const FooterNav = () => {
       <div className="flex w-1/3 justify-between">
         <div className="flex flex-col [&>*]:my-2">
           <h3 className="h3">Links</h3>
-          <Link to="projects">Projects</Link>
-          <Link to="publications">Publications</Link>
-          <Link to="events">Events</Link>
-          <Link to="team">Team</Link>
+          <Link to="projects">PROJECTS</Link>
+          <Link to="publications">PUBLICATIONS</Link>
+          <Link to="events">EVENTS</Link>
+          <Link to="team">TEAM</Link>
         </div>
         <div className="flex flex-col [&>*]:my-2">
           <h3 className="h3">Initiatives</h3>

@@ -7,6 +7,7 @@ import Week5Grid from "./Week5Grid";
 import Week6Grid from "./Week6Grid";
 import AdditionalMaterials from "./AdditionalMaterials";
 import CourseHeader from "./CourseHeader";
+import "./navstyles.css";
 
 const CourseTable = () => {
   const [whichWeek, setWhichWeek] = useState(1);
@@ -15,12 +16,17 @@ const CourseTable = () => {
     <div className="flex mx-28 mt-40">
       <div
         className={`grid gap-1 grid-cols-1 
-                      h-1/2 w-96 
+                      h-1/2 w-2/5
                       mr-4
                       justify-items-start
                       [&>button]:pt-3 [&>button]:pl-4 [&>button]:pb-2 [&>button]:text-white/[.30]
-                      
+                      [&>button]:border-s-4
+                      [&>button]:border-black
+                      [&>button.btn-disabled]:text-black
+                      [&>button.btn-disabled]:rounded-md
+
                       [&>button:nth-child(${whichWeek})]:border-s-4
+                      [&>button:nth-child(${whichWeek})]:text-white/[0.80]
                       [&>button:nth-child(${whichWeek})]:border-[#0AB1BC]
                       [&>button:nth-child(${whichWeek})]:rounded-md
                       [&>button:nth-child(${whichWeek})]:bg-[#FFFFFF22]
@@ -52,25 +58,31 @@ const CourseTable = () => {
           Week 3
         </button>
         <button
+          disabled
+          className="btn-disabled"
           onClick={() => {
             setWhichWeek(4);
           }}
         >
-          Week 4
+          Week 4 (coming soon)
         </button>
         <button
+          disabled
+          className="btn-disabled"
           onClick={() => {
             setWhichWeek(5);
           }}
         >
-          Week 5
+          Week 5 (coming soon)
         </button>
         <button
+          disabled
+          className="btn-disabled"
           onClick={() => {
             setWhichWeek(6);
           }}
         >
-          Week 6
+          Week 6 (coming soon)
         </button>
         <button
           onClick={() => {

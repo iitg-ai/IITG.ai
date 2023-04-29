@@ -1,0 +1,40 @@
+.anchor1 {
+  font-size: 14px;
+  line-height: 135%;
+  /* identical to box height, or 19px */
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.heading1 {
+  font-family: "Nohemi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 90%;
+  /* identical to box height, or 58px */
+
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+
+.desc1 {
+  font-family: "Nohemi";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 135%;
+  /* or 19px */
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+  width: 50%;
+  opacity: 0.7;
+  border: 1px solid #000000;
+}

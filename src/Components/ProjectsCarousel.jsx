@@ -28,7 +28,7 @@ const ProjectsCarousel = () => {
           rewind: true,
           //   autoWidth: true,
           autoplay: true,
-          interval: 5000,
+          interval: 2000,
           lazyLoad: "sequential",
           keyboard: "global",
           perPage: 4,
@@ -68,8 +68,14 @@ const ProjectsCarousel = () => {
         </SplideTrack>
 
         <div className="splide__arrows">
-          <LeftArrowIcon style={{backgroundColor:"black"}} className="splide__arrow splide__arrow--prev " />
-          <RightArrowIcon style={{backgroundColor:"black"}} className="splide__arrow splide__arrow--next" />
+          <LeftArrowIcon
+            style={{ backgroundColor: "black" }}
+            className="splide__arrow splide__arrow--prev "
+          />
+          <RightArrowIcon
+            style={{ backgroundColor: "black" }}
+            className="splide__arrow splide__arrow--next"
+          />
         </div>
       </Splide>
     </div>
