@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Components/HoverMessage.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CoursePage from "./Pages/CoursePage";
 import TeamPage from "./Pages/TeamPage";
@@ -10,6 +11,8 @@ import Footer from "./ConstantComponents/Footer";
 function App() {
   return (
     <div className="App bg-[url('/images/Bg.svg')] bg-black bg-no-repeat">
+      <div id="hover" className="hoverMessage"></div>
+
       {/* <TeamPage /> */}
       <Router>
         <Header />

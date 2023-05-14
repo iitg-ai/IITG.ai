@@ -93,6 +93,7 @@ const CourseTable = () => {
         </button>
       </div>
       <div>
+
         <div>
           <CourseHeader />
         </div>

@@ -3,6 +3,8 @@ import FancyWords from "../Images/FancyWords.svg";
 import CourseTable from "../Components/CoursePage/CourseTable";
 import CourseCards from "../Components/CoursePage/6Cards";
 import Weekss from "../Images/Weekss.svg";
+import Group55png from "../Images/Group 55.png";
+import Group55svg from "../Images/Group 55.svg";
 import "./Bored.css";
 
 const CoursePage = () => {
@@ -23,13 +25,18 @@ const CoursePage = () => {
           </p>
         </div>
       </div>
+
       <div className="mt-60">
         <CourseCards />
       </div>
+
       <div className="mt-40">
         <img className="w-full h-auto" src={FancyWords} />
       </div>
-      <CourseTable />
+
+      <div>
+        <CourseTable />
+      </div>
     </div>
   );
 };
