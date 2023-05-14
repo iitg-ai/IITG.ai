@@ -44,6 +44,7 @@ const Marquee = (props) => {
             easing: "ease",
             arrows: false,
             gap: 30,
+            drag: false,
           }}
         >
           <SplideSlide>

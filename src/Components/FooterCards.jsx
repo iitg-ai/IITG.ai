@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const FooterCards = () => {
   return (
-    <div className="bottom-0 relative container z-0">
+    <div className="bottom-0 relative container z-0 w-full">
       <Link to="publications">
         <FooterCard className="publications" title="Publications" />
       </Link>
