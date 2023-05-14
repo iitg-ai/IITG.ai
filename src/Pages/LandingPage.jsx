@@ -6,6 +6,7 @@ import ProjectDescription from "../Components/Landing/ProjectDescription";
 import Events from "../Components/Landing/Events";
 import { Splide } from "@splidejs/splide";
 import LandingPageImg from "../Images/temp3.svg";
+import MainHeader from "../ConstantComponents/MainHeader";
 
 const LandingPage = () => {
   document.addEventListener("DOMContentLoaded", function () {
@@ -15,11 +16,13 @@ const LandingPage = () => {
 
   return (
     <div>
-      {/* <Carousel /> */}
+      <MainHeader />
       <Marquee />
+
       <div className="mt-20">
         <img src={LandingPageImg} className="bg-black " />
       </div>
+      
       {/* <TeamMemberCard /> */}
       <LandingPageProjects />
 

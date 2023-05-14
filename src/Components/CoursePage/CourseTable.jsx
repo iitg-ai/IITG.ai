@@ -13,7 +13,7 @@ const CourseTable = () => {
   const [whichWeek, setWhichWeek] = useState(1);
 
   return (
-    <div className="flex mx-28 mt-40">
+    <div className="flex">
       <div
         className={`grid gap-1 grid-cols-1 
                       h-1/2 w-2/5

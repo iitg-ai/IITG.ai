@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Logo from "../Images/Logo.svg";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const MainHeader = () => {
   const emailId = "iitgai@iitg.ac.in";
   const [justCopied, setJustCopied] = useState(false);
   const foo = () => {
@@ -49,4 +49,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default MainHeader;

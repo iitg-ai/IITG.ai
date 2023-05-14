@@ -3,7 +3,7 @@ import "./Components/HoverMessage.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CoursePage from "./Pages/CoursePage";
 import TeamPage from "./Pages/TeamPage";
-import Header from "./ConstantComponents/Header";
+import MainHeader from "./ConstantComponents/MainHeader";
 import LandingPage from "./Pages/LandingPage";
 import Footer from "./ConstantComponents/Footer";
 
@@ -15,7 +15,6 @@ function App() {
 
       {/* <TeamPage /> */}
       <Router>
-        <Header />
         <div className="pb-60">
           <Routes>
             <Route path="/" element={<LandingPage />} />

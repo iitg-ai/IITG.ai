@@ -4,10 +4,12 @@ import CourseTable from "../Components/CoursePage/CourseTable";
 import CourseCards from "../Components/CoursePage/6Cards";
 import Weekss from "../Images/Weekss.svg";
 import "./Bored.css";
+import CourseHeader from "../ConstantComponents/CourseHeader";
 
 const CoursePage = () => {
   return (
     <div>
+      <CourseHeader />
       <div className="mt-20 z-10 w-full flex">
         <div>
           <img src={Weekss} />
@@ -24,15 +26,17 @@ const CoursePage = () => {
         </div>
       </div>
 
-      <div className="mt-60">
+      <div id="about" className="mt-48">
+        <div className="h-10"></div>
         <CourseCards />
       </div>
 
-      <div className="mt-40">
+      <div className="mt-32">
         <img className="w-full h-auto" src={FancyWords} />
       </div>
 
-      <div>
+      <div id="curriculum" className="mx-28 mt-20">
+        <div className="h-10"></div>
         <CourseTable />
       </div>
     </div>
