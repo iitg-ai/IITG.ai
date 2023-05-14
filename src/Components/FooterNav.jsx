@@ -21,7 +21,7 @@ const FooterNav = () => {
         <div className="flex flex-col [&>*]:my-2">
           <h3 className="h3">Initiatives</h3>
           <Link to="mlrw">MLRW</Link>
-          <Link to="course">MLAI</Link>
+          <Link to="coursePage">MLAI</Link>
         </div>
         <div className="flex flex-col [&>*]:my-2">
           <h3 className="h3">Socials</h3>
