@@ -1,6 +1,5 @@
 import React from "react";
 import Marquee from "../Components/Marquee";
-import Carousel from "../Components/Carousel";
 import LandingPageProjects from "../Components/Landing/Projects";
 import ProjectDescription from "../Components/Landing/ProjectDescription";
 import Events from "../Components/Landing/Events";
@@ -22,7 +21,7 @@ const LandingPage = () => {
       <div className="mt-20">
         <img src={LandingPageImg} className="bg-black " />
       </div>
-      
+
       {/* <TeamMemberCard /> */}
       <LandingPageProjects />
 

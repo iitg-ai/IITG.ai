@@ -1,23 +1,35 @@
 import React from "react";
+import Logo from "../../Images/Logo.svg";
 
 const CourseHeader = () => {
-  return (
-    <div
-      className="grid grid-cols-11 [&>div]:p-4
-                    [&>div]:border
-                    [&>div]:rounded
-                    [&>div]:bg-[#FFFFFF22]
-                    [&>div]:border-[#FFFFFF22]
-                    gap-1                    
+  const formLink = "#";
+  const foo = () => {
+    window.open(formLink);
+  };
 
-                    hover:[&>div]:bg-pink-500
-                    hover:[&>div]:text-white"
-    >
-      <div className="col-span-1">Week</div>
-      <div className="col-span-4">Contents</div>
-      <div className="col-span-2">Task 1</div>
-      <div className="col-span-2">Task 2</div>
-      <div className="col-span-2">Task 3</div>
+  const discordInvite = "";
+
+  return (
+    <div className="flex items-center justify-between py-10 px-20 relative">
+      <img src={Logo} />
+      <nav className="[&>a]:m-4 [&>a]:font-light [&>a]:text-[#FFFFFF]">
+        <a href="#about">About</a>
+        <a href="#curriculum">Curriculum</a>
+        <a href={discordInvite} target="_blank" rel="noopener noreferrer">
+          Discord
+        </a>
+      </nav>
+      <div className="flex flex-col items-center">
+        <button
+          className="rounded-3xl px-6 pt-3.5 pb-2.5 border"
+          style={{ fontFamily: "Nohemi" }}
+          onClick={() => {
+            foo();
+          }}
+        >
+          Register
+        </button>
+      </div>
     </div>
   );
 };

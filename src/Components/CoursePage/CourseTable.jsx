@@ -6,7 +6,7 @@ import Week4Grid from "./Week4Grid";
 import Week5Grid from "./Week5Grid";
 import Week6Grid from "./Week6Grid";
 import AdditionalMaterials from "./AdditionalMaterials";
-import CourseHeader from "./CourseHeader";
+import TableHeader from "./TableHeader";
 import "./navstyles.css";
 
 const CourseTable = () => {
@@ -95,7 +95,7 @@ const CourseTable = () => {
       <div>
 
         <div>
-          <CourseHeader />
+          <TableHeader />
         </div>
         <div className="mt-1">
           {whichWeek === 1 ? (

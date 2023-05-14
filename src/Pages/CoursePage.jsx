@@ -4,7 +4,7 @@ import CourseTable from "../Components/CoursePage/CourseTable";
 import CourseCards from "../Components/CoursePage/6Cards";
 import Weekss from "../Images/Weekss.svg";
 import "./Bored.css";
-import CourseHeader from "../ConstantComponents/CourseHeader";
+import CourseHeader from "../Components/CoursePage/CourseHeader";
 
 const CoursePage = () => {
   return (

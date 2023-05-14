@@ -11,22 +11,7 @@ const Marquee = (props) => {
       >
         Cultivating a culture of
       </div>
-      {/* <div class="Marquee">
-        <div class="Marquee-content">
-          <div class="Marquee-tag">Data Analysis</div>
-          <div class="Marquee-tag">Machine Learning</div>
-          <div class="Marquee-tag">Artificial Intelligence</div>
-          <div class="Marquee-tag">Data Analysis</div>
-          <div class="Marquee-tag">Machine Learning</div>
-          <div class="Marquee-tag">Artificial Intelligence</div>
-          <div class="Marquee-tag">Data Analysis</div>
-          <div class="Marquee-tag">Machine Learning</div>
-          <div class="Marquee-tag">Artificial Intelligence</div>
-          <div class="Marquee-tag">Data Analysis</div>
-          <div class="Marquee-tag">Machine Learning</div>
-          <div class="Marquee-tag">Artificial Intelligence</div>
-        </div>
-      </div> */}
+      
       <div id="container1" className="relative mt-4">
         <Splide
           options={{
