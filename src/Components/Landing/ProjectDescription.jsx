@@ -3,7 +3,7 @@ import GithubIcon from "../../Icons/GithubIcon";
 
 const ProjectDescription = (props) => {
   return (
-    <div style={{ marginLeft: 162 }}>
+    <div style={{ marginLeft: 162, marginTop:100 }}>
       <h1 style={{ fontSize: 64, fontWeight: 400 }}>{props.heading}</h1>
       <p style={{ fontSize: 14, fontWeight: 300, opacity: 0.7, width: "40%" }}>
         {props.description}

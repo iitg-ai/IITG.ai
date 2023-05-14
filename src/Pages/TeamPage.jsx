@@ -1,20 +1,13 @@
 import React from "react";
 import TeamMemberCard from "../Components/TeamMemberCard";
+import MainHeader from "../ConstantComponents/MainHeader";
+import Team from "../Components/Team";
 
 const TeamPage = () => {
   return (
-    <div className="flex justify-center">
-      <h1 className="self-center text-4xl font-bold ml-10 my-10">Core Team</h1>
-      <div className="grid grid-cols-3 w-4/5">
-        <TeamMemberCard />
-        <TeamMemberCard />
-        <TeamMemberCard />
-        <TeamMemberCard />
-        <TeamMemberCard />
-        <TeamMemberCard />
-        <TeamMemberCard />
-        <TeamMemberCard />
-      </div>
+    <div style={{ backgroundColor: "#0E0D0E" }}>
+      <MainHeader />
+      <Team />
     </div>
   );
 };

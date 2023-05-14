@@ -1,28 +1,29 @@
 import Icon from "./IconBase";
 
 const GithubIcon = (props) => (
-  <Icon width="16" height="16" viewBox="0 0 16 16" fill="none" {...props}>
-    <g filter="url(#filter0_d_1135_439)">
+  <Icon width="32" height="34" viewBox="0 0 32 34" fill="none" {...props}>
+    <rect width="32" height="32" rx="4" fill="white" fill-opacity="0.1" />
+    <g filter="url(#filter0_d_1425_1285)">
       <path
-        d="M5.99992 12.6668C2.66659 13.6668 2.66659 11.0001 1.33325 10.6668M10.6666 14.6668V12.0868C10.6916 11.7689 10.6486 11.4493 10.5406 11.1493C10.4325 10.8493 10.2619 10.5757 10.0399 10.3468C12.1333 10.1135 14.3333 9.32012 14.3333 5.68012C14.3331 4.74934 13.975 3.85425 13.3333 3.18012C13.6372 2.36579 13.6157 1.46569 13.2733 0.666788C13.2733 0.666788 12.4866 0.433454 10.6666 1.65345C9.13859 1.23934 7.52791 1.23934 5.99992 1.65345C4.17992 0.433454 3.39325 0.666788 3.39325 0.666788C3.05084 1.46569 3.02935 2.36579 3.33325 3.18012C2.68667 3.85925 2.32827 4.76243 2.33325 5.70012C2.33325 9.31346 4.53325 10.1068 6.62659 10.3668C6.40725 10.5934 6.23809 10.8637 6.13012 11.1601C6.02215 11.4564 5.97779 11.7722 5.99992 12.0868V14.6668"
+        d="M13.5001 21.8334C9.33341 23.0834 9.33341 19.75 7.66675 19.3334M19.3334 24.3334V21.1084C19.3647 20.711 19.311 20.3115 19.1759 19.9365C19.0409 19.5615 18.8275 19.2196 18.5501 18.9334C21.1667 18.6417 23.9167 17.65 23.9167 13.1C23.9165 11.9366 23.469 10.8177 22.6667 9.97503C23.0466 8.95712 23.0198 7.83199 22.5917 6.83336C22.5917 6.83336 21.6084 6.5417 19.3334 8.0667C17.4234 7.54905 15.4101 7.54905 13.5001 8.0667C11.2251 6.5417 10.2417 6.83336 10.2417 6.83336C9.81373 7.83199 9.78687 8.95712 10.1667 9.97503C9.35852 10.8239 8.91052 11.9529 8.91675 13.125C8.91675 17.6417 11.6667 18.6334 14.2834 18.9584C14.0092 19.2417 13.7978 19.5795 13.6628 19.95C13.5279 20.3204 13.4724 20.7151 13.5001 21.1084V24.3334"
         stroke="white"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        shapeRendering="crispEdges"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        shape-rendering="crispEdges"
       />
     </g>
     <defs>
       <filter
-        id="filter0_d_1135_439"
-        x="-3.41699"
-        y="-0.101074"
-        width="22.5002"
-        height="23.5178"
+        id="filter0_d_1425_1285"
+        x="2.6665"
+        y="5.81104"
+        width="26.2502"
+        height="27.5225"
         filterUnits="userSpaceOnUse"
-        colorInterpolationFilters="sRGB"
+        color-interpolation-filters="sRGB"
       >
-        <feFlood floodOpacity="0" result="BackgroundImageFix" />
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           type="matrix"
@@ -39,12 +40,12 @@ const GithubIcon = (props) => (
         <feBlend
           mode="normal"
           in2="BackgroundImageFix"
-          result="effect1_dropShadow_1135_439"
+          result="effect1_dropShadow_1425_1285"
         />
         <feBlend
           mode="normal"
           in="SourceGraphic"
-          in2="effect1_dropShadow_1135_439"
+          in2="effect1_dropShadow_1425_1285"
           result="shape"
         />
       </filter>

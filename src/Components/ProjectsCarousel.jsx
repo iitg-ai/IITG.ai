@@ -6,43 +6,41 @@ import RightArrowIcon from "../Icons/RightArrowIcon";
 import LeftArrowIcon from "../Icons/LeftArrowIcon";
 import TempCard from "../Images/tempcard.svg";
 import ProjectDescription from "./Landing/ProjectDescription";
+import "./ProjectCarousel.css";
 
 const ProjectsCarousel = () => {
   return (
     <div>
-      
       <Splide
         hasTrack={false}
         options={{
           rewind: true,
-          //   autoWidth: true,
+          autoWidth: true,
           autoplay: true,
           interval: 2000,
           lazyLoad: "sequential",
           keyboard: "global",
-          perPage: 4,
+          perPage: 2,
           perMove: 1,
           pagination: false,
-          focus: "center center",
+          // focus: "center center",
           type: "loop",
           easing: "ease",
           arrows: true,
-          focus: 1,
-          gap: 10,
+          // focus: 1,
+          gap: 20,
+          padding: 100,
         }}
       >
         <SplideTrack className="mx-20">
-          <SplideSlide>
-            <div
-              id="carouselCard"
-              onMouseOver={() => {
-                // document.getElementById("carouselCard").childNodes[1];
-              }}
-            >
+          <SplideSlide
+            id="carouselCard1"
+            onMouseOver={(e) => {
+              console.log(e.target);
+            }}
+          >
+            <div>
               <img src={TempCard} />
-              <div className="hidden">
-                <ProjectDescription />
-              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
