@@ -3,15 +3,13 @@ import FancyWords from "../Images/FancyWords.svg";
 import CourseTable from "../Components/CoursePage/CourseTable";
 import CourseCards from "../Components/CoursePage/6Cards";
 import Weekss from "../Images/Weekss.svg";
-import Group55png from "../Images/Group 55.png";
-import Group55svg from "../Images/Group 55.svg";
 import "./Bored.css";
 
 const CoursePage = () => {
   return (
     <div>
       <div className="mt-20 z-10 w-full flex">
-        <div className="bg-black">
+        <div>
           <img src={Weekss} />
         </div>
         <div className="bg-transparent top-0 ml-10">
