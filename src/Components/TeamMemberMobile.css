@@ -1,13 +1,14 @@
-.box {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 30px 100%, 0 calc(100% - 30px));
-  background-color: inherit;
-  display: flex;
-  height: 192px;
-  width: 48%;
+.box-mobile {
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 46px),
+    calc(100% - 46px) 100%,
+    0 100%
+  );
   background: rgba(40, 40, 40, 0.5);
-  border-radius: 13px 12px 12px 0px;
-  margin: 22px 22px 0 0;
-  border: 1px solid rgba(255, 255, 255, 0.2);;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
   /* align-items: center; */
 }
 
@@ -17,13 +18,14 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 90%;
-  margin-top: 32px;
-  margin-left: 26px;
-  /* identical to box height, or 29px */
-
+  margin-top: 20px;
+  margin-left: 24 px;
   letter-spacing: -0.01em;
-
   color: #ffffff;
+
+  @media screen and (min-width: 1080px) {
+    margin-top: 32px;
+  }
 }
 
 .por {
@@ -49,11 +51,15 @@
   line-height: 135%;
   letter-spacing: 0.02em;
 
+  width: 80%;
   margin-bottom: 24px;
   margin-left: 26px;
   margin-right: 26px;
 
   color: #ffffff;
-
   opacity: 0.7;
+
+  @media screen and (min-width: 1080px) {
+    width: 90%;
+  }
 }
