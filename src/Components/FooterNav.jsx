@@ -6,7 +6,7 @@ import QuotationIcon from "../Icons/QuotationIcon";
 const FooterNav = () => {
   return (
     <div className="mx-6 lg:flex lg:justify-between lg:mx-32">
-      <QuotationIcon className="absolute -ml-8 -mt-8" />
+      <QuotationIcon className="absolute lg:-ml-8 -mt-8" />
       <h1 className="quote lg:w-1/2 lg:text-[64px] text-[32px]">
         There is no other place like IITG.ai if you love what you do
       </h1>
