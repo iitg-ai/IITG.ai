@@ -6,8 +6,12 @@ import Team from "../Components/Team";
 const TeamPage = () => {
   return (
     <div style={{ backgroundColor: "#0E0D0E" }}>
-      <MainHeader />
-      <Team />
+      <div>
+        <MainHeader />
+      </div>
+      <div className="mt-10 lg:mt-0">
+        <Team />
+      </div>
     </div>
   );
 };
