@@ -4,6 +4,39 @@
   border-radius: 12px;
   box-sizing: border-box;
   width: 359px;
+  background: rgba(40, 40, 40, 0.05);
+  box-shadow: 12px 4px 160px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(40px);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    0 100%
+  );
+  position: relative;
+}
+
+#container:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    0 100%,
+    0 0,
+    1px 1px,
+    1px calc(100% - 1px),
+    calc(100% - 30px - 0.41px) calc(100% - 1px),
+    calc(100% - 1px) calc(100% - 30px - 0.41px),
+    calc(100% - 1px) 1px,
+    1px 1px
+  );
 }
 
 #container:hover {

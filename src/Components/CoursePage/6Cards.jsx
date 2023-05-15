@@ -27,14 +27,14 @@ const CourseCards = () => {
             tag1="SUPERVISED LEARNING"
             tag2="SUPERVISED LEARNING"
             tag3="SUPERVISED LEARNING"
-            whichWeek="Week 1"
+            whichWeek="Week 2"
             description="Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos"
           />
           <WeekDescCard
             tag1="SUPERVISED LEARNING"
             tag2="SUPERVISED LEARNING"
             tag3="SUPERVISED LEARNING"
-            whichWeek="Week 1"
+            whichWeek="Week 3"
             description="Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos"
           />
           <img src={Hackathon1} />
@@ -44,14 +44,14 @@ const CourseCards = () => {
             tag1="SUPERVISED LEARNING"
             tag2="SUPERVISED LEARNING"
             tag3="SUPERVISED LEARNING"
-            whichWeek="Week 1"
+            whichWeek="Week 5"
             description="Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos"
           />
           <WeekDescCard
             tag1="SUPERVISED LEARNING"
             tag2="SUPERVISED LEARNING"
             tag3="SUPERVISED LEARNING"
-            whichWeek="Week 1"
+            whichWeek="Week 6"
             description="Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos"
           />
           <img src={Hackathon2} />
