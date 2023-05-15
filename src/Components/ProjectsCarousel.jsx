@@ -86,9 +86,9 @@ const ProjectsCarousel = () => {
             // focus: "center center",
             type: "loop",
             easing: "ease",
-            arrows: true,
+            arrows: false,
             // focus: 1,
-            // gap: 20,
+            gap: 10,
             padding: 24,
           }}
         >
