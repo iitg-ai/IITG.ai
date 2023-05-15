@@ -6,10 +6,19 @@ import "./TeamMemberMobile.css";
 const TeamMemberMobile = (props) => {
   return (
     <div className="box-mobile">
-      <img
-        src={props.img}
-        style={{ maxHeight: 192, width: "auto", borderRadius: "12px 0 0 0" }}
-      />
+      <div
+        style={{
+          borderRadius: "12px 0 0 0",
+          width: 192,
+          clipPath:
+            "polygon(0 0, 100% 0, 100% 100%, 46px 100%, 0 calc(100% - 46px))",
+        }}
+      >
+        <img
+          src="/team/devansh.jpg"
+          style={{ maxHeight: 192, width: "auto", borderTopLeftRadius: 12 }}
+        />
+      </div>
       <div className="self-start h-full flex flex-col justify-between">
         <div>
           <div className="flex flex-row items-center name ">
