@@ -1,7 +1,8 @@
 import React from "react";
 import Logo from "../../Images/Logo.svg";
 
-const CourseHeader = () => {
+const 
+CourseHeader = () => {
   const formLink = "#";
   const foo = () => {
     window.open(formLink);
