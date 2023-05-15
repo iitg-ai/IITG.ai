@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const FooterCards = () => {
   return (
-    <div className="bottom-0 relative container z-0 w-full">
+    <div className="bottom-0 relative container z-0">
       <Link to="publications">
         <FooterCard className="publications" title="Publications" />
       </Link>
@@ -20,12 +20,16 @@ const FooterCards = () => {
       <Link to="events">
         <FooterCard className="events" title="Events" />
       </Link>
-      <div className="z-0 w-full">
-        <img src={FooterTiles1} className="w-full	h-auto" />
+      <div className="z-0">
+        <img
+          src={FooterTiles1}
+          // className="	h-20 "
+          // style={{ maxWidth: "100%" }}
+        />
         <img
           src={FooterTiles2}
-          className="w-full	h-auto"
-          style={{ marginTop: -8 }}
+          // className=" h-20"
+          style={{ marginTop: -8}}
         />
       </div>
     </div>

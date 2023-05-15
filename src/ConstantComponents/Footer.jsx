@@ -4,11 +4,11 @@ import FooterNav from "../Components/FooterNav";
 
 const Footer = () => {
   return (
-    <div className="overflow-y-hidden w-full">
-      <div className="mb-60 w-full">
+    <div className="overflow-hidden">
+      <div className="mb-60">
         <FooterNav />
       </div>
-      <div className="w-full">
+      <div>
         <FooterCards />
       </div>
     </div>
