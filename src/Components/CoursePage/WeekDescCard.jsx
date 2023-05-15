@@ -5,7 +5,7 @@ import "./WeekDescCard.css";
 const WeekDescCard = ({ tag1, tag2, tag3, whichWeek, description }) => {
   return (
     <>  
-      <div id="container" className="relative w-1/3">
+      <div id="container" className="relative">
         <div
           id="content"
           className="px-6 py-5 h-full flex flex-col justify-between"

@@ -9,7 +9,7 @@ const LandingPageProjects = (props) => {
     <>
       <div className="ml-6 lg:ml-32 lg:mr-20 mt-40 lg:flex justify-between bg-black">
         <Card
-          anchor="Projects"
+          anchor="Projects & Publications"
           heading="What do we do?"
           description="Phasellus condimentum eros ac efficitur aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
         />
