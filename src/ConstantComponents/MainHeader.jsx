@@ -18,9 +18,9 @@ const MainHeader = () => {
     });
   };
   return (
-    <div className="flex items-center justify-between py-10 px-20 relative">
+    <div className="flex lg:items-center lg:justify-between py-6 px-6 lg:px-20 lg:py-10 relative">
       <img src={Logo} />
-      <nav className="[&>a]:m-4 [&>a]:font-light [&>a]:text-[#FFFFFF]">
+      <nav className="[&>a]:m-4 [&>a]:font-light [&>a]:text-[#FFFFFF] hidden lg:block">
         <Link to="/">Home</Link>
         <Link to="projects">Projects</Link>
         <Link to="publications">Publications</Link>
@@ -29,7 +29,7 @@ const MainHeader = () => {
         <Link to="mlrw">MLRW</Link>
         <Link to="coursePage">Summer Course</Link>
       </nav>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center hidden lg:block">
         <button
           className="rounded-3xl px-6 pt-3.5 pb-2.5 border"
           style={{ fontFamily: "Nohemi" }}
