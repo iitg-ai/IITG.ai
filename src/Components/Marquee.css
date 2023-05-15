@@ -8,19 +8,22 @@
   );
 }
 
-li > div {
-  font-size: 64px;
+#container1 > div > div > ul > li > div {
+  font-size: 32px;
   max-width: none !important;
   opacity: 5;
   color: rgb(73, 70, 70);
-  /* margin-left: 400px; */
+
+  @media screen and (min-width: 1080px) {
+    font-size: 64px;
+  }
 }
 
-li {
+#container1 > div > div > ul > li {
   display: inline-block;
 }
 
-li.is-active > div {
+#container1 > div > div > ul > li.is-active > div {
   color: white;
   opacity: 100;
 }

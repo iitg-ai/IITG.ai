@@ -19,8 +19,8 @@ const Card = (props) => {
       >
         {props.anchor}
       </h6>
-      <h1 style={{ fontSize: 44 }}>{props.heading}</h1>
-      <p style={{ fontSize: 14, opacity: 0.7 }} className="w-3/5">
+      <h1 className="text-[24px] lg:text-[44px] ">{props.heading}</h1>
+      <p style={{ fontSize: 14, opacity: 0.7 }} className="lg:w-3/5">
         {props.description}
       </p>
     </div>
