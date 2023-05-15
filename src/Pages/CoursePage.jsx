@@ -10,7 +10,7 @@ const CoursePage = () => {
   return (
     <div>
       <CourseHeader />
-      <div className="mt-20 z-10 w-full flex">
+      <div className="mt-12 z-10 w-full flex">
         <div>
           <img src={Weekss} />
         </div>
@@ -18,11 +18,22 @@ const CoursePage = () => {
           <p className="anchor1 mt-20">{"IITG.ai’s Summer Course for AI"}</p>
           <p className="heading1 mt-5">The perfect start</p>
           <p className="heading1 ml-40 mt-5">for your AI journey.</p>
-          <p className="desc1 mt-5 ml-20">
-            Phasellus condimentum eros ac efficitur aliquet. Class aptent taciti
-            sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos.
-          </p>
+          <div className="mt-5 ml-20">
+            <p className="desc1">
+              Phasellus condimentum eros ac efficitur aliquet. Class aptent
+              taciti sociosqu ad litora torquent per conubia nostra, per
+              inceptos himenaeos.
+            </p>
+            <div className="mt-5">
+              
+            <button className="rounded-3xl px-6 pt-3.5 pb-2.5 border register-button">
+              REGISTER FOR MLAI
+            </button>
+            <button className="rounded-3xl px-6 pt-3.5 pb-2.5 border ml-4">
+              JOIN DISCORD SERVER
+            </button>
+            </div>
+          </div>
         </div>
       </div>
 

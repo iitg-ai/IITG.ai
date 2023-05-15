@@ -38,3 +38,11 @@
   opacity: 0.7;
   border: 1px solid #000000;
 }
+
+.register-button {
+  background: radial-gradient(
+      116.85% 432.93% at 6.63% -12.5%,
+      #0ab1bc 39.44%,
+      #2259e8 100%
+    )
+}
