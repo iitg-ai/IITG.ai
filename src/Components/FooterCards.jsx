@@ -20,7 +20,7 @@ const FooterCards = () => {
       <Link to="events">
         <FooterCard className="events" title="Events" />
       </Link>
-      <div className="z-0">
+      <div className="z-0 w-full">
         <img src={FooterTiles1} className="w-full	h-auto" />
         <img
           src={FooterTiles2}

@@ -5,12 +5,12 @@ import QuotationIcon from "../Icons/QuotationIcon";
 
 const FooterNav = () => {
   return (
-    <div className="flex justify-between mx-32">
+    <div className="mx-6 lg:flex lg:justify-between lg:mx-32">
       <QuotationIcon className="absolute -ml-8 -mt-8" />
-      <h1 className="quote">
+      <h1 className="quote lg:w-1/2 lg:text-[64px] text-[32px]">
         There is no other place like IITG.ai if you love what you do
       </h1>
-      <div className="flex w-1/3 justify-between">
+      <div className="mt-8 flex w-full lg:w-1/3 lg:mt-0 justify-between">
         <div className="flex flex-col [&>*]:my-2">
           <h3 className="h3">Links</h3>
           <Link to="projects">PROJECTS</Link>

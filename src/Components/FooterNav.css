@@ -1,11 +1,9 @@
 .quote {
   position: relative;
-  width: 653px;
-  top: 382;
+  /* width: 653px; */
   font-family: "Nohemi";
   font-style: normal;
   font-weight: 400;
-  font-size: 64px;
   line-height: 90%;
 }
 
