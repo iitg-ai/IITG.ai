@@ -1,0 +1,7 @@
+#project_description {
+  display: hidden;
+}
+
+#project_description .is-active {
+  display: block;
+}

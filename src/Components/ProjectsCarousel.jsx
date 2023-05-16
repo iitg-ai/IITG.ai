@@ -42,17 +42,43 @@ const ProjectsCarousel = () => {
               }}
             >
               <div>
-                <img src={TempCard} />
+                <img
+                  src="/projects/vital_extraction.png"
+                  alt=""
+                  height="200px"
+                  width="360px"
+                />
+                <ProjectDescription
+                  hidden={1}
+                  heading="Knowledge Base QA"
+                  description="Implementation of an accurate and efficient pipeline for Knowledge Base Question Answering. We optimize this pipeline for performance, latency and resource usage. The availability of diverse knowledge bases makes this task challenging."
+                  url="https://github.com/iitg-ai/Inter-IIT-11-Devrev"
+                />
               </div>
             </SplideSlide>
             <SplideSlide>
-              <img src={TempCard} />
+              <img
+                src="/projects/qa_chatbot.jpg"
+                alt=""
+                height="200px"
+                width="360px"
+              />
             </SplideSlide>
             <SplideSlide>
-              <img src={TempCard} />
+              <img
+                src="/projects/animal_ai_olympics.png"
+                alt=""
+                height="200px"
+                width="360px"
+              />
             </SplideSlide>
             <SplideSlide>
-              <img src={TempCard} />
+              <img
+                src="/projects/qa_chatbot.jpg"
+                alt=""
+                height="200px"
+                width="360px"
+              />
             </SplideSlide>
           </SplideTrack>
 
@@ -100,21 +126,19 @@ const ProjectsCarousel = () => {
               }}
             >
               <div>
-                <img src={TempCard} />
+                <img src={TempCard} alt="" />
               </div>
             </SplideSlide>
             <SplideSlide>
-              <img src={TempCard} />
+              <img src={TempCard} alt="" />
             </SplideSlide>
             <SplideSlide>
-              <img src={TempCard} />
+              <img src={TempCard} alt="" />
             </SplideSlide>
             <SplideSlide>
-              <img src={TempCard} />
+              <img src={TempCard} alt="" />
             </SplideSlide>
           </SplideTrack>
-
-          
         </Splide>
       </div>
     </>

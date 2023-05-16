@@ -39,7 +39,7 @@ const CourseCards = () => {
           />
           <img src={Hackathon1} />
         </div>
-        <div className="grid grid-cols-3 ml-40 gap-24 mt-4 h-50">
+        <div className="flex justify-between px-20 mt-4 h-50">
           <WeekDescCard
             tag1="SUPERVISED LEARNING"
             tag2="SUPERVISED LEARNING"

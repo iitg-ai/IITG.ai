@@ -10,7 +10,9 @@ const Marquee = (props) => {
         style={{ marginTop: 48, marginBottom: -30 }}
       >
         <span className="block lg:inline">Cultivating </span>
-        <span className="block lg:inline ml-[56px] lg:ml-0 -mt-2">a culture of</span>
+        <span className="block lg:inline ml-[56px] lg:ml-0 -mt-2">
+          a culture of
+        </span>
       </div>
 
       <div id="container1" className="relative mt-6 lg:mt-4 hidden lg:block">
@@ -77,7 +79,6 @@ const Marquee = (props) => {
         </Splide>
       </div>
 
-
       <div
         style={{
           // marginLeft: 260,
@@ -89,8 +90,8 @@ const Marquee = (props) => {
         }}
         className="font-light text-[#FFFFFF] lg:ml-[260px] lg:mr-[700px]  w-3/4 lg:w-auto ml-8 mt-6"
       >
-        Phasellus condimentum eros ac efficitur aliquet. Class aptent taciti
-        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        We are the AI student community of IIT Guwahati, working on real
+        world projects and research publications in the domain of AI/ML.
       </div>
     </>
   );
