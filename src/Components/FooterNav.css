@@ -1,0 +1,20 @@
+.quote {
+  position: relative;
+  /* width: 653px; */
+  font-family: "Nohemi";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%;
+}
+
+.h3{
+    font-family: 'Nohemi';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    /* identical to box height, or 19px */
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}

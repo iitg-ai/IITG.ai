@@ -1,0 +1,75 @@
+.publications {
+  box-sizing: border-box;
+  position: absolute;
+  width: 33%;
+  height: 176px;
+  left: 8%;
+  bottom: 0px;
+  background: rgba(69, 69, 69, 0.2);
+  backdrop-filter: blur(40px);
+  z-index: 10;
+  transform: translateY(40px);
+  transition-duration: 200ms;
+}
+
+.publications:hover {
+  transform: translateY(0px);
+  background: rgba(69, 69, 69, 0.4);
+}
+
+.projects {
+  box-sizing: border-box;
+  position: absolute;
+  width: 33%;
+  height: 320px;
+  left: 12%;
+  bottom: 0px;
+  background: rgba(69, 69, 69, 0.2);
+  backdrop-filter: blur(40px);
+  z-index: 0;
+  transform: translateY(40px);
+  transition-duration: 200ms;
+}
+
+.projects:hover {
+  transform: translateY(0px);
+  background: rgba(69, 69, 69, 0.4);
+}
+
+.team {
+  box-sizing: border-box;
+  position: absolute;
+  width: 33%;
+  height: 256px;
+  left: 41%;
+  bottom: 0px;
+  background: rgba(69, 69, 69, 0.2);
+  backdrop-filter: blur(40px);
+  z-index: 20;
+  transform: translateY(40px);
+  transition-duration: 200ms;
+}
+
+.team:hover {
+  transform: translateY(0px);
+  background: rgba(69, 69, 69, 0.4);
+}
+
+.events {
+  box-sizing: border-box;
+  position: absolute;
+  width: 33%;
+  height: 216px;
+  left: 57%;
+  bottom: 0px;
+  background: rgba(69, 69, 69, 0.2);
+  backdrop-filter: blur(40px);
+  z-index: 30;
+  transform: translateY(40px);
+  transition-duration: 200ms;
+}
+
+.events:hover {
+  transform: translateY(0px);
+  background: rgba(69, 69, 69, 0.4);
+}

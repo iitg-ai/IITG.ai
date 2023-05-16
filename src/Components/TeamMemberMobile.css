@@ -1,0 +1,65 @@
+.box-mobile {
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 46px),
+    calc(100% - 46px) 100%,
+    0 100%
+  );
+  background: rgba(40, 40, 40, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  /* align-items: center; */
+}
+
+.name {
+  font-family: "Nohemi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 90%;
+  margin-top: 20px;
+  margin-left: 24 px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+
+  @media screen and (min-width: 1080px) {
+    margin-top: 32px;
+  }
+}
+
+.por {
+  font-family: "Nohemi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 90%;
+  margin-top: 12px;
+  margin-left: 26px;
+  /* identical to box height, or 18px */
+
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+
+.one-liner {
+  font-family: "Nohemi";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 135%;
+  letter-spacing: 0.02em;
+
+  width: 80%;
+  margin-bottom: 24px;
+  margin-left: 26px;
+  margin-right: 26px;
+
+  color: #ffffff;
+  opacity: 0.7;
+
+  @media screen and (min-width: 1080px) {
+    width: 90%;
+  }
+}
