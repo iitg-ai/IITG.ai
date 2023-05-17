@@ -20,7 +20,7 @@ const MainHeader = () => {
   return (
     <div className="flex lg:items-center lg:justify-between py-6 px-6 lg:px-20 lg:py-10 relative">
       <img src={Logo} />
-      <nav className="[&>a]:m-4 [&>a]:font-light [&>a]:text-[#FFFFFF] hidden lg:block">
+      <nav className="[&>a]:m-4 [&>a]:font-light [&>a]:text-[#FFFFFF] hidden lg:inline">
         <Link to="/">Home</Link>
         <Link to="projects">Projects</Link>
         <Link to="publications">Publications</Link>
@@ -29,7 +29,7 @@ const MainHeader = () => {
         <Link to="mlrw">MLRW</Link>
         <Link to="coursePage">Summer Course</Link>
       </nav>
-      <div className="flex flex-col items-center hidden lg:block">
+      <div className="flex flex-col items-center hidden lg:inline">
         <button
           className="rounded-3xl px-6 pt-3.5 pb-2.5 border"
           style={{ fontFamily: "Nohemi" }}
@@ -40,7 +40,7 @@ const MainHeader = () => {
           GET IN TOUCH
         </button>
         <label
-          className={`mt-14 absolute ${justCopied == 0 ? "hidden" : "visible"}`}
+          className={`mt-14 absolute ${justCopied == 0 ? "hidden" : ""}`}
         >
           Copied to clipboard!
         </label>

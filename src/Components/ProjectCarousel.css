@@ -1,7 +1,13 @@
 #splide02-list > .is-active {
-  /* scale: 1.4;
-  margin-top: 40px; */
-  /* background: green; */
-  /* scale: 1.4; */
-  /* height: auto; */
+  scale: 1.4;
+}
+
+#splide03 > div > ul > li > img{
+  opacity: 0.5;
+}
+
+#splide03 > div > ul > li.is-active > img{
+  opacity: 1;
+  scale: 1.2;
+  margin-left: 40px;
 }

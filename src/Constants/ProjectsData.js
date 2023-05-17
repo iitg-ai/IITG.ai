@@ -25,6 +25,13 @@ export const projects = [
     title: "Cover Generator",
     description:
       "This project aims to generate images from audio or text provided by the user as an application for the latest OpenAl Tools in the order of Whisper, ChatGPT, and DALL-E. The pipeline involves multi models for each process and has been fine-tuned for each task. The text input is also addressed by summarising it to create a prompt that further makes images using stable diffusion.",
+    url: "https://github.com/iitg-ai/Cover-Generator",
+  },
+  {
+    index: 4,
+    title: "StyleGAN",
+    description:
+      "An alternative generator architecture for generative adversarial networks, borrowing from style transfer literature which improves the state-of-the-art in terms of traditional distribution quality metrics.",
     url: "https://github.com/IITGuwahati-AI/StyleGAN",
   },
 ];

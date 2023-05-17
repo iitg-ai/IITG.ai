@@ -17,7 +17,7 @@ const Events = () => {
             flag={1}
             anchor="Course"
             heading=""
-            description=""
+            description="The course offers a comprehensive blend of high-quality resources including engaging videos, informative blogs, weekly assignments, and exciting hackathons to assess your knowledge and skills. The course is one of a kind, free, open for all and has no prerequisites."
           />
         </div>
 
@@ -37,7 +37,7 @@ const Events = () => {
               flag={1}
               anchor="Keynotes"
               heading="MLRW"
-              description="Phasellus condimentum eros ac efficitur aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+              description="MLRW (Machine Learning Research Week) is an innovative platform designed to provide students with a unique opportunity to engage with and learn from high-achieving individuals in the field of Artificial Intelligence (AI) and Machine Learning (ML). This week-long event brings together renowned researchers, industry professionals, and educators who have made significant contributions to the field, offering students an invaluable chance to broaden their knowledge and expand their network within the AI community."
             />
           </div>
         </div>
