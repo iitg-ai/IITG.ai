@@ -4,7 +4,6 @@ import "@splidejs/splide/css";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import RightArrowIcon from "../Icons/RightArrowIcon";
 import LeftArrowIcon from "../Icons/LeftArrowIcon";
-import TempCard from "../Images/tempcard.svg";
 import ProjectDescription from "./Landing/ProjectDescription";
 import "./ProjectCarousel.css";
 import { projects } from "../Constants/ProjectsData";
@@ -55,7 +54,7 @@ const ProjectsCarousel = () => {
             type: "loop",
             easing: "ease",
             arrows: true,
-            // focus: 1,
+            focus: 0,
             gap: 20,
             padding: 100,
           }}
