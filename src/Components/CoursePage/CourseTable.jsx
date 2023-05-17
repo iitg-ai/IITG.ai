@@ -10,16 +10,16 @@ import TableHeader from "./TableHeader";
 import "./navstyles.css";
 
 const CourseTable = () => {
-  const [whichWeek, setWhichWeek] = useState(1);
+  const [whichWeek, setWhichWeek] = useState(0);
 
   return (
     <div className="flex">
       <div
         className={`grid gap-1 grid-cols-1 
-                      h-1/2 w-2/5
+                      h-1/2 w-auto
                       mr-4
                       justify-items-start
-                      [&>button]:pt-3 [&>button]:pl-4 [&>button]:pb-2 [&>button]:text-white/[.30]
+                      [&>button]:pt-3 [&>button]:px-4 [&>button]:pb-2 [&>button]:text-white/[.30]
                       [&>button]:border-s-4
                       [&>button]:border-black
                       [&>button.btn-disabled]:text-black
@@ -37,25 +37,31 @@ const CourseTable = () => {
                       `}
       >
         <button
+          disabled
+          className="btn-disabled"
           onClick={() => {
             setWhichWeek(1);
           }}
         >
-          Week 1
+          Week 1 (coming tonight)
         </button>
         <button
+          disabled
+          className="btn-disabled"
           onClick={() => {
             setWhichWeek(2);
           }}
         >
-          Week 2
+          Week 2 (coming soon)
         </button>
         <button
+          disabled
+          className="btn-disabled"
           onClick={() => {
             setWhichWeek(3);
           }}
         >
-          Week 3
+          Week 3 (coming soon)
         </button>
         <button
           disabled
@@ -85,6 +91,8 @@ const CourseTable = () => {
           Week 6 (coming soon)
         </button>
         <button
+          disabled
+          className="btn-disabled"
           onClick={() => {
             setWhichWeek(7);
           }}
@@ -92,29 +100,30 @@ const CourseTable = () => {
           Additional Materials
         </button>
       </div>
-      <div>
-
+      {whichWeek !== 0 && (
         <div>
-          <TableHeader />
+          <div>
+            <TableHeader />
+          </div>
+          <div className="mt-1">
+            {whichWeek === 1 ? (
+              <Week1Grid />
+            ) : whichWeek === 2 ? (
+              <Week2Grid />
+            ) : whichWeek === 3 ? (
+              <Week3Grid />
+            ) : whichWeek === 4 ? (
+              <Week4Grid />
+            ) : whichWeek === 5 ? (
+              <Week5Grid />
+            ) : whichWeek === 6 ? (
+              <Week6Grid />
+            ) : (
+              <AdditionalMaterials />
+            )}
+          </div>
         </div>
-        <div className="mt-1">
-          {whichWeek === 1 ? (
-            <Week1Grid />
-          ) : whichWeek === 2 ? (
-            <Week2Grid />
-          ) : whichWeek === 3 ? (
-            <Week3Grid />
-          ) : whichWeek === 4 ? (
-            <Week4Grid />
-          ) : whichWeek === 5 ? (
-            <Week5Grid />
-          ) : whichWeek === 6 ? (
-            <Week6Grid />
-          ) : (
-            <AdditionalMaterials />
-          )}
-        </div>
-      </div>
+      )}
     </div>
   );
 };

@@ -15,46 +15,48 @@ const CourseCards = () => {
         description="Phasellus condimentum eros ac efficitur aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
       />
       <div className="mt-8">
-        <div className="flex justify-between">
+        <div className="flex justify-between h-64">
           <WeekDescCard
-            tag1="SUPERVISED LEARNING"
-            tag2="SUPERVISED LEARNING"
-            tag3="SUPERVISED LEARNING"
+            tag1="Python"
+            tag2="Data Manipulation"
+            tag3="Data Visaualization"
             whichWeek="Week 1"
-            description="Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos"
+            description="This week covers basics of Python, and very essential libraries like Numpy (for efficient numerical computation), Pandas (for data processing), Matplotlib (for data visualization). "
           />
           <WeekDescCard
-            tag1="SUPERVISED LEARNING"
-            tag2="SUPERVISED LEARNING"
-            tag3="SUPERVISED LEARNING"
+            tag1="Supervised Learning"
+            tag2="Model Performace"
+            tag3="Model Optimization"
             whichWeek="Week 2"
-            description="Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos"
+            description="This week familiarises you with Machine Learning basics, and covers basic ML concepts like Linear Regression, Logistic Regression, Regularization, Naïve Bayes, Evaluation Metrics and more. It also covers a machine learning library, Sklearn."
           />
           <WeekDescCard
-            tag1="SUPERVISED LEARNING"
-            tag2="SUPERVISED LEARNING"
-            tag3="SUPERVISED LEARNING"
+            tag1="Advanced ML"
+            tag2="Unsupervised Learning"
+            tag3="Ensemble Learning"
             whichWeek="Week 3"
-            description="Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos"
+            description="This week covers various important ML algorithms like SVM, KMeans, KNN and also familiarises you with unsupervised clustering, PCA(Principal Component Analysis). It will also cover Important topics like Ensemble Learning. "
           />
           <img src={Hackathon1} />
         </div>
-        <div className="flex justify-between px-20 mt-4 h-50">
-          <WeekDescCard
-            tag1="SUPERVISED LEARNING"
-            tag2="SUPERVISED LEARNING"
-            tag3="SUPERVISED LEARNING"
-            whichWeek="Week 5"
-            description="Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos"
-          />
-          <WeekDescCard
-            tag1="SUPERVISED LEARNING"
-            tag2="SUPERVISED LEARNING"
-            tag3="SUPERVISED LEARNING"
-            whichWeek="Week 6"
-            description="Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos"
-          />
-          <img src={Hackathon2} />
+        <div className="mt-6 mx-52">
+          <div className="flex justify-between w-full h-64">
+            <WeekDescCard
+              tag1="EDA"
+              tag2="Real World Data"
+              tag3="Kaggle"
+              whichWeek="Week 5"
+              description="This week covers certain topics which are very important from hackathon POV and dealing with real world data like EDA (Exploratory Data Analysis), Feature Engineering, Outlier and Missing Value Handling, Applications of Boosting algorithms like XGBoost, CatBoost and LightGBM and many more. "
+            />
+            <WeekDescCard
+              tag1="Gradient Descent"
+              tag2="Activation Functions"
+              tag3="Backpropagation"
+              whichWeek="Week 6"
+              description="This week, you will start your journey into neural networks and deep learning. You will start by learning about the fundamentals of neural networks. You will explore concepts such as activation functions and backpropagation."
+            />
+            <img src={Hackathon2}  />
+          </div>
         </div>
       </div>
     </div>

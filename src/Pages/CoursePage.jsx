@@ -7,6 +7,8 @@ import "./Bored.css";
 import CourseHeader from "../Components/CoursePage/CourseHeader";
 
 const CoursePage = () => {
+  const discordInvite = "https://discord.gg/f77NPvPzwB";
+  const regFormLink = "https://forms.gle/z7EgSHUKU2mHmih59";
   return (
     <div>
       <CourseHeader />
@@ -25,13 +27,22 @@ const CoursePage = () => {
               inceptos himenaeos.
             </p>
             <div className="mt-5">
-              
-            <button className="rounded-3xl px-6 pt-3.5 pb-2.5 border register-button">
-              REGISTER FOR MLAI
-            </button>
-            <button className="rounded-3xl px-6 pt-3.5 pb-2.5 border ml-4">
-              JOIN DISCORD SERVER
-            </button>
+              <button
+                className="rounded-3xl px-6 pt-3.5 pb-2.5 border register-button"
+                onClick={() => {
+                  window.open(regFormLink);
+                }}
+              >
+                REGISTER FOR MLAI
+              </button>
+              <button
+                className="rounded-3xl px-6 pt-3.5 pb-2.5 border ml-4"
+                onClick={() => {
+                  window.open(discordInvite);
+                }}
+              >
+                JOIN DISCORD SERVER
+              </button>
             </div>
           </div>
         </div>

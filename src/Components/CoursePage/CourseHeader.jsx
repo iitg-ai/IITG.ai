@@ -1,14 +1,14 @@
 import React from "react";
 import Logo from "../../Images/Logo.svg";
 
-const 
-CourseHeader = () => {
-  const formLink = "#";
+const CourseHeader = () => {
+  const regFormLink = "https://forms.gle/z7EgSHUKU2mHmih59";
+
   const foo = () => {
-    window.open(formLink);
+    window.open(regFormLink);
   };
 
-  const discordInvite = "";
+  const discordInvite = "https://discord.gg/f77NPvPzwB";
 
   return (
     <div className="flex items-center justify-between py-10 px-20 relative">
