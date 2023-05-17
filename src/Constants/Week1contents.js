@@ -89,7 +89,7 @@ export const Week1contents = [
   },
   {
     text: `
-    <p><u><a target="_blank" href="https://colab.research.google.com/drive/1MGkWmXrKp2wXCl_q1SXlL7-pT10Hx3ds?authuser=6#scrollTo=0Svcsjnrx4xR">Numpy Practice (Notebook)</a></u></p>
+    <p><u><a target="_blank" href="https://drive.google.com/file/d/1MGkWmXrKp2wXCl_q1SXlL7-pT10Hx3ds/view?usp=sharing">Numpy Practice (Notebook)</a></u></p>
     <br>
     <p><u><a target="_blank" href="https://www.kaggle.com/code/varunnagpalspyz/ml-ai-week-1-numpy-practice/notebook?scriptVersionId=129927133">Kaggle Solutions</a></u></p>
     `,
