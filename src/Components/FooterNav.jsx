@@ -12,7 +12,7 @@ const FooterNav = () => {
 
   const generic_line =
     location.pathname === "/" || location.pathname === "/coursePage"
-      ? "There is no other place like IITG.ai if you love what you do"
+      ? "Torture the data, and it will confess to anything."
       : "Coming Soon";
 
   return (
