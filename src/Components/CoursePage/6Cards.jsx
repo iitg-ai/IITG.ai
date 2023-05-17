@@ -46,7 +46,7 @@ const CourseCards = () => {
               tag2="Real World Data"
               tag3="Kaggle"
               whichWeek="Week 5"
-              description="This week covers certain topics which are very important from hackathon POV and dealing with real world data like EDA (Exploratory Data Analysis), Feature Engineering, Outlier and Missing Value Handling, Applications of Boosting algorithms like XGBoost, CatBoost and LightGBM and many more. "
+              description="This week covers dealing with real world data like EDA, Feature Engineering, Outlier and Missing Value Handling, Applications of Boosting algorithms like XGBoost, CatBoost and LightGBM and many more such concepts. "
             />
             <WeekDescCard
               tag1="Gradient Descent"
