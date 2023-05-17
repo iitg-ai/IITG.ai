@@ -10,10 +10,10 @@ import TableHeader from "./TableHeader";
 import "./navstyles.css";
 
 const CourseTable = () => {
-  const [whichWeek, setWhichWeek] = useState(0);
+  const [whichWeek, setWhichWeek] = useState(1);
 
   return (
-    <div className="lg:flex">
+    <div className="lg:flex w-full">
       <div
         className={`grid gap-1 grid-cols-1 
                       h-1/2 w-auto
@@ -37,13 +37,11 @@ const CourseTable = () => {
                       `}
       >
         <button
-          disabled
-          className="btn-disabled"
           onClick={() => {
             setWhichWeek(1);
           }}
         >
-          Week 1 (coming tonight)
+          Week 1
         </button>
         <button
           disabled
@@ -102,7 +100,7 @@ const CourseTable = () => {
       </div>
 
       {whichWeek !== 0 && (
-        <div>
+        <div className="w-4/5">
           <div>
             <TableHeader />
           </div>

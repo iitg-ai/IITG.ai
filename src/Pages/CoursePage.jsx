@@ -64,7 +64,7 @@ const CoursePage = () => {
       <div className="lg:hidden text-center mt-10 text-lg">
         Course Table is visible only in desktop mode.
       </div>
-      <div id="curriculum" className="mx-28 lg:mt-20">
+      <div id="curriculum" className="mx-20 lg:mt-20">
         <div className="h-10"></div>
         <CourseTable />
       </div>
