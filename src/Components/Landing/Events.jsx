@@ -35,7 +35,7 @@ const Events = () => {
             </Link>
             <Card
               // className="ml-20 -mt-56 "
-            className="absolute ml-20 -mt-[200px]"
+              className="absolute ml-[84px] -mt-[200px]"
               flag={1}
               anchor="COURSE"
               heading="ML.AI"
@@ -51,27 +51,33 @@ const Events = () => {
           flag={0}
           anchor="Events"
           heading="How do we give back?"
-          description="Phasellus condimentum eros ac efficitur aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+          description="We conduct informative workshops, challenging hackathons, insightful conferences and useful projects as well."
         />
         <div className="mt-8">
-          <img src={temp1} />
+          <Link to="mlrw">
+            <img src="images/mlai.png" />
+          </Link>
           <Card
-            className="-mt-48 p-6"
+            // className="ml-20 -mt-56 "
+            className="-mt-40 px-14"
             flag={1}
-            anchor="Keynotes"
-            heading="MLRW"
-            description="Phasellus condimentum eros ac efficitur aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+            anchor="COURSE"
+            heading="ML.AI"
+            description="The course offers comprehensive learning material as well as hackathons to assess your knowledge and skill. The course is free, open for all and has no prerequisites."
           />
         </div>
 
-        <div className="mt-6">
-          <img src={temp2} />
+        <div className="mt-20">
+          <Link to="/coursePage">
+            <img src="images/mlrw.png" />
+          </Link>
           <Card
-            className="-mt-48 p-6"
+            // className="ml-8 -mt-72 mr-8"
+            className="-mt-52 p-6"
             flag={1}
-            anchor="Keynotes"
+            anchor="KEYNOTES"
             heading="MLRW"
-            description="Phasellus condimentum eros ac efficitur aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+            description="Machine Learning Research Week provides students the opportunity to learn from high-achieving individuals. The event brings together renowned researchers, industry professionals and educators helping students broaden their knowledge"
           />
         </div>
       </div>

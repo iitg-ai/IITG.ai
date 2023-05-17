@@ -7,13 +7,16 @@ const Card = (props) => {
         style={{
           fontSize: 12,
           fontFamily: "Nohemi",
+          opacity: 0.5,
           display: "inline",
           boxSizing: "border-box",
           padding: "10px 12px 6px 12px",
           borderRadius: "100px",
         }}
         className={
-          props.flag === 1 ? `text-[#FFFFFF] background-blur-sm bg-[#282828] pl-12` : `pl-0`
+          props.flag === 1
+            ? `text-[#FFFFFF] backdrop-blur-sm bg-[#282828] pl-12`
+            : `pl-0`
         }
       >
         {props.anchor}

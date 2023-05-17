@@ -13,23 +13,23 @@ const ProjectsCarousel = () => {
   const [activeProject, setActiveProject] = useState(projects[0]);
 
   const foo = (prevIndex, newIndex, destIndex) => {
-    console.log(newIndex);
+    // console.log(newIndex);
     setActiveProject(() => projects[newIndex]);
   };
 
   useEffect(() => {
-    console.log("activeProject", activeProject);
+    // console.log("activeProject", activeProject);
   }, [activeProject]);
 
   const [activeProjectMobile, setActiveProjectMobile] = useState(projects[0]);
 
   const fooMobile = (prevIndex, newIndex, destIndex) => {
-    console.log(newIndex);
+    // console.log(newIndex);
     setActiveProjectMobile(() => projects[newIndex]);
   };
 
   useEffect(() => {
-    console.log("activeProjectMobile", activeProjectMobile);
+    // console.log("activeProjectMobile", activeProjectMobile);
   }, [activeProjectMobile]);
 
   return (
@@ -51,7 +51,7 @@ const ProjectsCarousel = () => {
             perPage: 2,
             perMove: 1,
             pagination: false,
-            // focus: "center center",
+            focus: "center center",
             type: "loop",
             easing: "ease",
             arrows: true,
@@ -60,15 +60,7 @@ const ProjectsCarousel = () => {
             padding: 100,
           }}
         >
-          <SplideTrack className="mx-20">
-            <SplideSlide>
-              <img
-                src="/projects/qa_chatbot.jpg"
-                alt="qa_chatbot"
-                height="200px"
-                width="360px"
-              />
-            </SplideSlide>
+          <SplideTrack className="mx-20 h-[300px] ">
             <SplideSlide>
               <div>
                 <img
@@ -81,6 +73,14 @@ const ProjectsCarousel = () => {
             </SplideSlide>
             <SplideSlide>
               <img
+                src="/projects/qa_chatbot.png"
+                alt="qa_chatbot"
+                height="200px"
+                width="360px"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
                 src="/projects/animal_ai_olympics.png"
                 alt="animal_ai_olympics"
                 height="200px"
@@ -89,7 +89,7 @@ const ProjectsCarousel = () => {
             </SplideSlide>
             <SplideSlide>
               <img
-                src="/projects/cover_generator.jpeg"
+                src="/projects/cover_generator.png"
                 alt="cover_generator"
                 height="200px"
                 width="360px"
@@ -116,7 +116,7 @@ const ProjectsCarousel = () => {
             />
           </div>
         </Splide>
-        <div>
+        <div className="-mt-20">
           <ProjectDescription
             // hidden={1}
             heading={activeProject.title}
@@ -147,18 +147,10 @@ const ProjectsCarousel = () => {
             easing: "ease",
             arrows: false,
             gap: 10,
-            padding: 24,
+            padding: 12,
           }}
         >
           <SplideTrack>
-            <SplideSlide>
-              <img
-                src="/projects/qa_chatbot.jpg"
-                alt="qa_chatbot"
-                height="200px"
-                width="360px"
-              />
-            </SplideSlide>
             <SplideSlide>
               <div>
                 <img
@@ -171,6 +163,14 @@ const ProjectsCarousel = () => {
             </SplideSlide>
             <SplideSlide>
               <img
+                src="/projects/qa_chatbot.png"
+                alt="qa_chatbot"
+                height="200px"
+                width="360px"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
                 src="/projects/animal_ai_olympics.png"
                 alt="animal_ai_olympics"
                 height="200px"
@@ -179,7 +179,7 @@ const ProjectsCarousel = () => {
             </SplideSlide>
             <SplideSlide>
               <img
-                src="/projects/cover_generator.jpeg"
+                src="/projects/cover_generator.png"
                 alt="cover_generator"
                 height="200px"
                 width="360px"
@@ -195,7 +195,7 @@ const ProjectsCarousel = () => {
             </SplideSlide>
           </SplideTrack>
         </Splide>
-        <div className="-ml-8">
+        <div className="-ml-8 mt-8">
           <ProjectDescription
             // hidden={1}
             heading={activeProjectMobile.title}

@@ -18,13 +18,8 @@ const GridCell = (props) => {
         const message = document.getElementById("hover");
         message.hidden = 1;
       }}
-      onMouseDown={() => {
-        window.open(props.url);
-      }}
-      className={props.url == "" ? "" : "cursor-pointer"}
-    >
-      {props.text}
-    </div>
+      dangerouslySetInnerHTML={{ __html: props.text }}
+    ></div>
   );
 };
 
