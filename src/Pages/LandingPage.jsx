@@ -17,7 +17,7 @@ const LandingPage = () => {
       <Marquee />
 
       <div className="mt-20">
-        <img src="team/people.png" className="bg-black border" />
+        <img src="team/people.png" className="" />
       </div>
 
       {/* <TeamMemberCard /> */}

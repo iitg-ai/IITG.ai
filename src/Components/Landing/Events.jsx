@@ -9,7 +9,7 @@ const Events = () => {
       {/* desktop view */}
       <div className="mx-20 mt-28 flex flex-row justify-between max-lg:hidden">
         <div className="w-1/2">
-          <Link to="/coursePage">
+          <Link to="mlrw">
             <img src="images/mlrw.png" />
           </Link>
           <Card
@@ -30,7 +30,7 @@ const Events = () => {
             description="We conduct informative workshops, challenging hackathons, insightful conferences and useful projects as well."
           />
           <div>
-            <Link to="mlrw">
+            <Link to="/coursePage">
               <img src="images/mlai.png" />
             </Link>
             <Card
