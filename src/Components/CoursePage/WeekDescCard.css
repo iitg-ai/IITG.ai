@@ -4,6 +4,7 @@
   border-radius: 12px;
   box-sizing: border-box;
   width: 400px;
+  height: 250px;
   background: rgba(40, 40, 40, 0.05);
   box-shadow: 12px 4px 160px rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(40px);
@@ -15,6 +16,10 @@
     0 100%
   );
   position: relative;
+
+  @media screen and (max-width: 1080px) {
+    width: 100%;
+  }
 }
 
 #container::before {
@@ -34,7 +39,7 @@
 }
 
 #container::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   right: 0;

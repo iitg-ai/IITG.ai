@@ -12,15 +12,17 @@ const CoursePage = () => {
   return (
     <div>
       <CourseHeader />
-      <div className="mt-12 z-10 w-full flex">
+      <div className="mt-12 z-10 w-full lg:flex">
         <div>
           <img src={Weekss} />
         </div>
-        <div className="bg-transparent top-0 ml-10">
+        <div className="bg-transparent top-0 ml-6 lg:ml-10">
           <p className="anchor1 mt-20">{"IITG.ai’s Summer Course for AI"}</p>
           <p className="heading1 mt-5">The perfect start</p>
-          <p className="heading1 ml-40 mt-5">for your AI journey.</p>
-          <div className="mt-5 ml-20">
+          <p className="heading1 text-right mt-5 mr-6 lg:ml-40 lg:mr-0 lg:text-left">
+            for your AI journey.
+          </p>
+          <div className="mt-5 lg:ml-20">
             <p className="desc1">
               Phasellus condimentum eros ac efficitur aliquet. Class aptent
               taciti sociosqu ad litora torquent per conubia nostra, per
@@ -48,16 +50,19 @@ const CoursePage = () => {
         </div>
       </div>
 
-      <div id="about" className="mt-48">
+      <div id="about" className="lg:mt-48 mt-10">
         <div className="h-10"></div>
         <CourseCards />
       </div>
 
-      <div className="mt-32">
+      <div className="lg:mt-32 mt-10">
         <img className="w-full h-auto" src={FancyWords} />
       </div>
 
-      <div id="curriculum" className="mx-28 mt-20">
+      <div className="lg:hidden text-center mt-10 text-lg">
+        Course Table is visible only in desktop mode.
+      </div>
+      <div id="curriculum" className="mx-28 lg:mt-20">
         <div className="h-10"></div>
         <CourseTable />
       </div>

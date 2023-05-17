@@ -10,11 +10,16 @@
   z-index: 10;
   transform: translateY(40px);
   transition-duration: 200ms;
+
+  @media screen and (max-width: 1080px) {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
 }
 
 .publications:hover {
   transform: translateY(0px);
   background: rgba(69, 69, 69, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .projects {
@@ -29,11 +34,16 @@
   z-index: 0;
   transform: translateY(40px);
   transition-duration: 200ms;
+
+  @media screen and (max-width: 1080px) {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
 }
 
 .projects:hover {
   transform: translateY(0px);
   background: rgba(69, 69, 69, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .team {
@@ -48,11 +58,16 @@
   z-index: 20;
   transform: translateY(40px);
   transition-duration: 200ms;
+
+  @media screen and (max-width: 1080px) {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
 }
 
 .team:hover {
   transform: translateY(0px);
   background: rgba(69, 69, 69, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .events {
@@ -67,9 +82,14 @@
   z-index: 30;
   transform: translateY(40px);
   transition-duration: 200ms;
+
+  @media screen and (max-width: 1080px) {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
 }
 
 .events:hover {
   transform: translateY(0px);
   background: rgba(69, 69, 69, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }

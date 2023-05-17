@@ -47,7 +47,7 @@ const Marquee = (props) => {
         </Splide>
       </div>
 
-      <div id="container1" className="relative mt-6 lg:mt-4 lg:hidden">
+      <div id="container1" className="relative mt-8 lg:mt-4 lg:hidden">
         <Splide
           options={{
             autoWidth: true,

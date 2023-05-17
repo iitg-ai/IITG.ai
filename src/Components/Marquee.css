@@ -10,7 +10,7 @@
 
 #container1 > div > div > ul > li > div {
   font-size: 32px;
-  max-width: none !important;
+  /* max-width: none !important; */
   opacity: 5;
   color: rgb(73, 70, 70);
 
@@ -26,4 +26,5 @@
 #container1 > div > div > ul > li.is-active > div {
   color: white;
   opacity: 100;
+  scale: 1;
 }

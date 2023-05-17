@@ -13,7 +13,7 @@ const CourseTable = () => {
   const [whichWeek, setWhichWeek] = useState(0);
 
   return (
-    <div className="flex">
+    <div className="lg:flex">
       <div
         className={`grid gap-1 grid-cols-1 
                       h-1/2 w-auto
@@ -100,6 +100,7 @@ const CourseTable = () => {
           Additional Materials
         </button>
       </div>
+
       {whichWeek !== 0 && (
         <div>
           <div>
