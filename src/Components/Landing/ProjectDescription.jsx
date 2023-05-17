@@ -6,7 +6,7 @@ const ProjectDescription = (props) => {
   return (
     <div
       id="project_description"
-      className={`lg:ml-[162px] lg:mt-[100px] ml-[56px] mr-6 `}
+      className={`lg:ml-[162px] lg:mt-[100px] ml-[56px] mr-6 h-60`}
       hidden={props.hidden}
     >
       <h1 className="lg:text-[64px] text-[32px] ">{props.heading}</h1>

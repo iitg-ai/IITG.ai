@@ -10,10 +10,9 @@ const CourseCards = () => {
       <Card
         className=""
         flag={0}
-        anchor="The Process"
-        heading="How does it work?"
-        description="Phasellus condimentum eros ac efficitur aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
-      />
+        anchor="Course Outline"
+        heading="How is the course structured?"
+        description="The 7 week course takes you from basic Python to complex neural networks. The course is structured  as follows:"      />
       <div className="mt-8 max-lg:hidden">
         <div className="flex justify-between h-64">
           <WeekDescCard
@@ -81,8 +80,8 @@ const CourseCards = () => {
           whichWeek="Week 3"
           description="This week covers various important ML algorithms like SVM, KMeans, KNN and also familiarises you with unsupervised clustering, PCA(Principal Component Analysis). It will also cover Important topics like Ensemble Learning. "
         />
-        <div className="self-center scale-[2]">
-          <img src={Hackathon1} alt="hackathon-1" className="rotate-90 " />
+        <div className="self-center ">
+          <img src={Hackathon1} alt="hackathon-1" className="rotate-90 scale-[2]" />
         </div>
 
         <WeekDescCard

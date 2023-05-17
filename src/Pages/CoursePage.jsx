@@ -13,7 +13,7 @@ const CoursePage = () => {
     <div>
       <CourseHeader />
       <div className="mt-12 z-10 w-full lg:flex">
-        <div>
+        <div className="lg:w-2/3">
           <img src={Weekss} />
         </div>
         <div className="bg-transparent top-0 ml-6 lg:ml-10">
@@ -24,9 +24,11 @@ const CoursePage = () => {
           </p>
           <div className="mt-5 lg:ml-20">
             <p className="desc1">
-              Phasellus condimentum eros ac efficitur aliquet. Class aptent
-              taciti sociosqu ad litora torquent per conubia nostra, per
-              inceptos himenaeos.
+              The summer course on Data Science and Machine Learning offers a
+              comprehensive blend of high-quality resources sourced from the
+              internet, including engaging videos, informative blogs, weekly
+              assignments, and culminating in an exciting hackathon to assess
+              your knowledge and skills.
             </p>
             <div className="mt-5">
               <button
@@ -38,7 +40,7 @@ const CoursePage = () => {
                 REGISTER FOR MLAI
               </button>
               <button
-                className="rounded-3xl px-6 pt-3.5 pb-2.5 border ml-4"
+                className="rounded-3xl px-6 pt-3.5 pb-2.5 border lg:ml-4"
                 onClick={() => {
                   window.open(discordInvite);
                 }}
