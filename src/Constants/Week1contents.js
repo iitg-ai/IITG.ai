@@ -9,9 +9,9 @@ export const Week1contents = [
   },
   {
     text: `<p>Anaconda Installation (Blog)</p>
-    <p><u><a target="_blank" href="https://www.geeksforgeeks.org/how-to-install-anaconda-on-windows">WINDOWS</a></u></p>
-    <p><u><a target="_blank" href="https://www.geeksforgeeks.org/how-to-install-anaconda-on-macos/">MAC OS</a></u></p>
-    <p><u><a target="_blank" href="https://docs.anaconda.com/free/anaconda/install/index.html">ALL OS</a></u></p>`,
+    <p><u><a target="_blank" href="https://www.geeksforgeeks.org/how-to-install-anaconda-on-windows">Windows</a></u></p>
+    <p><u><a target="_blank" href="https://www.geeksforgeeks.org/how-to-install-anaconda-on-macos/">Mac OS</a></u></p>
+    <p><u><a target="_blank" href="https://docs.anaconda.com/free/anaconda/install/index.html">All OS</a></u></p>`,
     message: "",
   },
 
@@ -172,6 +172,7 @@ export const Week1contents = [
   {
     text: `
     <p><u><a target="_blank" href="https://youtu.be/_uQrJ0TkZlc?t=10907">Python OOPs</a></u></p>
+    Till 03:19:32
     `,
     message: "",
   },
