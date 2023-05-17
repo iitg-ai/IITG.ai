@@ -12,7 +12,8 @@ const CourseCards = () => {
         flag={0}
         anchor="Course Outline"
         heading="How is the course structured?"
-        description="The 7 week course takes you from basic Python to complex neural networks. The course is structured  as follows:"      />
+        description="The 7 week course takes you from basic Python to complex neural networks. The course is structured  as follows:"
+      />
       <div className="mt-8 max-lg:hidden">
         <div className="flex justify-between h-64">
           <WeekDescCard
@@ -81,7 +82,11 @@ const CourseCards = () => {
           description="This week covers various important ML algorithms like SVM, KMeans, KNN and also familiarises you with unsupervised clustering, PCA(Principal Component Analysis). It will also cover Important topics like Ensemble Learning. "
         />
         <div className="self-center ">
-          <img src={Hackathon1} alt="hackathon-1" className="rotate-90 scale-[2]" />
+          <img
+            src={Hackathon1}
+            alt="hackathon-1"
+            className="rotate-90 scale-[2]"
+          />
         </div>
 
         <WeekDescCard

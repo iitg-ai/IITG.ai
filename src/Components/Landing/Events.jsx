@@ -51,7 +51,7 @@ const Events = () => {
           flag={0}
           anchor="Events"
           heading="How do we give back?"
-          description="Phasellus condimentum eros ac efficitur aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+          description="We conduct informative workshops, challenging hackathons, insightful conferences and useful projects as well."
         />
         <div className="mt-8">
           <Link to="mlrw">
@@ -59,25 +59,25 @@ const Events = () => {
           </Link>
           <Card
             // className="ml-20 -mt-56 "
-            className="absolute -mt-[200px]"
+            className="-mt-40 px-14"
             flag={1}
             anchor="COURSE"
             heading="ML.AI"
-            description="The course offers a comprehensive blend of high-quality resources including engaging videos, informative blogs, weekly assignments, and exciting hackathons to assess your knowledge and skills. The course is one of a kind, free, open for all and has no prerequisites."
+            description="The course offers comprehensive learning material as well as hackathons to assess your knowledge and skill. The course is free, open for all and has no prerequisites."
           />
         </div>
 
-        <div className="mt-6">
+        <div className="mt-20">
           <Link to="/coursePage">
             <img src="images/mlrw.png" />
           </Link>
           <Card
             // className="ml-8 -mt-72 mr-8"
-            className="absolute ml-8 -mt-72 mr-8"
+            className="-mt-52 p-6"
             flag={1}
             anchor="KEYNOTES"
             heading="MLRW"
-            description="MLRW (Machine Learning Research Week) is an innovative platform designed to provide students with a unique opportunity to engage with and learn from high-achieving individuals in the field of Artificial Intelligence (AI) and Machine Learning (ML). This week-long event brings together renowned researchers, industry professionals, and educators who have made significant contributions to the field, offering students an invaluable chance to broaden their knowledge and expand their network within the AI community."
+            description="Machine Learning Research Week provides students the opportunity to learn from high-achieving individuals. The event brings together renowned researchers, industry professionals and educators helping students broaden their knowledge"
           />
         </div>
       </div>

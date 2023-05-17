@@ -10,7 +10,6 @@ const TableHeader = () => {
                     [&>div]:border-[#FFFFFF22]
                     gap-1                    
 
-                    hover:[&>div]:bg-pink-500
                     hover:[&>div]:text-white"
     >
       <div className="col-span-1">Week</div>

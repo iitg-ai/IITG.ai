@@ -29,7 +29,7 @@ const Week1Grid = () => {
                 [&>div:nth-child(5n+4)]:col-span-2
                 [&>div:nth-child(5n+5)]:col-span-2
 
-                hover:[&>div]:bg-pink-500
+                hover:[&>div]:bg-[#1a1a1a]
 
                 [&>div]:p-4
                 [&>div]:border

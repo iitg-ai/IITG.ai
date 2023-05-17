@@ -100,7 +100,7 @@ const CourseTable = () => {
       </div>
 
       {whichWeek !== 0 && (
-        <div className="w-4/5">
+        <div className="w-4/5 max-lg:hidden">
           <div>
             <TableHeader />
           </div>

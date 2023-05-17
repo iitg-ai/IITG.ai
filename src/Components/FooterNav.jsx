@@ -9,11 +9,12 @@ const FooterNav = () => {
   const LINKEDIN = "https://www.linkedin.com/company/iitg-ai/";
 
   const location = useLocation();
-  console.log(location.pathname);
+
   const generic_line =
     location.pathname === "/" || "/coursePage"
       ? "There is no other place like IITG.ai if you love what you do"
       : "Coming Soon";
+      
   return (
     <div className="mx-6 pb-6 lg:flex lg:justify-between lg:mx-32">
       <QuotationIcon className="absolute lg:-ml-8 -mt-8 w-10 -ml-4" />
