@@ -11,12 +11,12 @@ const LandingPageProjects = (props) => {
         <Card
           anchor="Projects & Publications"
           heading="What do we do?"
-          description="Phasellus condimentum eros ac efficitur aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+          description="As the AI club of our college, we actively engage in real-world projects and research initiatives. Through collaborative efforts, we explore diverse areas of AI, including Natural Language Processing, Computer Vision, and Reinforcement Learning. "
         />
         <div className="mt-4 lg:mt-0">
           <button
-            className="border rounded-3xl border-slate-200 flex items-center"
-            style={{ padding: "14px 24px 10px" }}
+            className="border rounded-3xl border-slate-200 flex items-center w-52"
+            style={{ padding: "14px 24px 10px 24px" }}
             onClick={() => {
               window.open(iitgaiGithub);
             }}

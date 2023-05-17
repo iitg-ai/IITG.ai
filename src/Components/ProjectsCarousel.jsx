@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "@splidejs/splide/css";
 // import Splide from "@splidejs/splide";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
@@ -7,13 +7,36 @@ import LeftArrowIcon from "../Icons/LeftArrowIcon";
 import TempCard from "../Images/tempcard.svg";
 import ProjectDescription from "./Landing/ProjectDescription";
 import "./ProjectCarousel.css";
+import { projects } from "../Constants/ProjectsData";
 
 const ProjectsCarousel = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeProject, setActiveProject] = useState(projects[0]);
+
+  const foo = (prevIndex, newIndex, destIndex) => {
+    console.log(newIndex);
+    // console.log(activeProject);
+    // setActiveIndex((prev) => {
+    //   return newIndex;
+    // });
+    setActiveProject(() => projects[newIndex]);
+    // console.log(activeIndex);
+  };
+
+  useEffect(() => {
+    // console.log("activeIndex", activeIndex);
+    // setActiveProject(projects[(activeIndex + 1) % 4]);
+    console.log("activeProject", activeProject);
+  }, [activeProject]);
+
   return (
     <>
       {/* desktop view */}
       <div className="max-lg:hidden">
         <Splide
+          onMoved={(prevIndex, newIndex, destIndex) => {
+            foo(prevIndex, newIndex, destIndex);
+          }}
           hasTrack={false}
           options={{
             rewind: true,
@@ -35,27 +58,6 @@ const ProjectsCarousel = () => {
           }}
         >
           <SplideTrack className="mx-20">
-            <SplideSlide
-              id="carouselCard1"
-              onMouseOver={(e) => {
-                console.log(e.target);
-              }}
-            >
-              <div>
-                <img
-                  src="/projects/vital_extraction.png"
-                  alt=""
-                  height="200px"
-                  width="360px"
-                />
-                <ProjectDescription
-                  hidden={1}
-                  heading="Knowledge Base QA"
-                  description="Implementation of an accurate and efficient pipeline for Knowledge Base Question Answering. We optimize this pipeline for performance, latency and resource usage. The availability of diverse knowledge bases makes this task challenging."
-                  url="https://github.com/iitg-ai/Inter-IIT-11-Devrev"
-                />
-              </div>
-            </SplideSlide>
             <SplideSlide>
               <img
                 src="/projects/qa_chatbot.jpg"
@@ -63,6 +65,16 @@ const ProjectsCarousel = () => {
                 height="200px"
                 width="360px"
               />
+            </SplideSlide>
+            <SplideSlide>
+              <div>
+                <img
+                  src="/projects/vital_extraction.png"
+                  alt=""
+                  height="200px"
+                  width="360px"
+                />
+              </div>
             </SplideSlide>
             <SplideSlide>
               <img
@@ -74,7 +86,7 @@ const ProjectsCarousel = () => {
             </SplideSlide>
             <SplideSlide>
               <img
-                src="/projects/qa_chatbot.jpg"
+                src="/projects/cover_generator.jpeg"
                 alt=""
                 height="200px"
                 width="360px"
@@ -93,6 +105,14 @@ const ProjectsCarousel = () => {
             />
           </div>
         </Splide>
+        <div>
+          <ProjectDescription
+            // hidden={1}
+            heading={activeProject.title}
+            description={activeProject.description}
+            url={activeProject.url}
+          />
+        </div>
       </div>
 
       {/* mobile view */}

@@ -1,7 +1,6 @@
 import React from "react";
 import Marquee from "../Components/Marquee";
 import LandingPageProjects from "../Components/Landing/Projects";
-import ProjectDescription from "../Components/Landing/ProjectDescription";
 import Events from "../Components/Landing/Events";
 import { Splide } from "@splidejs/splide";
 import LandingPageImg from "../Images/temp3.svg";
