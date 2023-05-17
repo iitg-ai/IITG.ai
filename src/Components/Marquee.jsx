@@ -90,8 +90,8 @@ const Marquee = (props) => {
         }}
         className="font-light text-[#FFFFFF] lg:ml-[260px] lg:mr-[700px]  w-3/4 lg:w-auto ml-8 mt-6"
       >
-        We are the AI student community of IIT Guwahati, working on real
-        world projects and research publications in the domain of AI/ML.
+        We are the AI student community of IIT Guwahati, working on real world
+        projects and research publications in the domain of AI/ML.
       </div>
     </>
   );
