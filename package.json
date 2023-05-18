@@ -2,6 +2,7 @@
   "name": "mess",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://iitg.ac.in/sa/ai",
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
     "@splidejs/splide": "^4.1.4",
