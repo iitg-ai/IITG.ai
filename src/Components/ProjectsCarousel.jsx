@@ -63,7 +63,7 @@ const ProjectsCarousel = () => {
             <SplideSlide>
               <div>
                 <img
-                  src="/projects/vital_extraction.png"
+                  src="projects/vital_extraction.png"
                   alt="vital_extraction"
                   height="200px"
                   width="360px"
@@ -72,7 +72,7 @@ const ProjectsCarousel = () => {
             </SplideSlide>
             <SplideSlide>
               <img
-                src="/projects/qa_chatbot.png"
+                src="projects/qa_chatbot.png"
                 alt="qa_chatbot"
                 height="200px"
                 width="360px"
@@ -80,7 +80,7 @@ const ProjectsCarousel = () => {
             </SplideSlide>
             <SplideSlide>
               <img
-                src="/projects/animal_ai_olympics.png"
+                src="projects/animal_ai_olympics.png"
                 alt="animal_ai_olympics"
                 height="200px"
                 width="360px"
@@ -88,7 +88,7 @@ const ProjectsCarousel = () => {
             </SplideSlide>
             <SplideSlide>
               <img
-                src="/projects/cover_generator.png"
+                src="projects/cover_generator.png"
                 alt="cover_generator"
                 height="200px"
                 width="360px"
@@ -96,7 +96,7 @@ const ProjectsCarousel = () => {
             </SplideSlide>
             <SplideSlide>
               <img
-                src="/projects/stylegan.png"
+                src="projects/stylegan.png"
                 alt="stylegan"
                 height="200px"
                 width="360px"
@@ -153,7 +153,7 @@ const ProjectsCarousel = () => {
             <SplideSlide>
               <div>
                 <img
-                  src="/projects/vital_extraction.png"
+                  src="projects/vital_extraction.png"
                   alt="vital_extraction"
                   height="200px"
                   width="360px"
@@ -162,7 +162,7 @@ const ProjectsCarousel = () => {
             </SplideSlide>
             <SplideSlide>
               <img
-                src="/projects/qa_chatbot.png"
+                src="projects/qa_chatbot.png"
                 alt="qa_chatbot"
                 height="200px"
                 width="360px"
@@ -170,7 +170,7 @@ const ProjectsCarousel = () => {
             </SplideSlide>
             <SplideSlide>
               <img
-                src="/projects/animal_ai_olympics.png"
+                src="projects/animal_ai_olympics.png"
                 alt="animal_ai_olympics"
                 height="200px"
                 width="360px"
@@ -178,7 +178,7 @@ const ProjectsCarousel = () => {
             </SplideSlide>
             <SplideSlide>
               <img
-                src="/projects/cover_generator.png"
+                src="projects/cover_generator.png"
                 alt="cover_generator"
                 height="200px"
                 width="360px"
@@ -186,7 +186,7 @@ const ProjectsCarousel = () => {
             </SplideSlide>
             <SplideSlide>
               <img
-                src="/projects/stylegan.png"
+                src="projects/stylegan.png"
                 alt="stylegan"
                 height="200px"
                 width="360px"

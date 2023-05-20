@@ -1,6 +1,11 @@
 import "./App.css";
 import "./Components/HoverMessage.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 import CoursePage from "./Pages/CoursePage";
 import TeamPage from "./Pages/TeamPage";
 import MainHeader from "./ConstantComponents/MainHeader";
@@ -10,11 +15,11 @@ import Footer from "./ConstantComponents/Footer";
 // ("bg-[url('/images/Bg.svg')]");
 function App() {
   return (
-    <div className="App bg-[url('/images/Bg.svg')] bg-black bg-no-repeat">
+    <div className="App bg-[url('images/Bg.svg')] bg-black bg-no-repeat">
       <div id="hover" className="hoverMessage"></div>
 
       {/* <TeamPage /> */}
-      <Router>
+      <Router basename={`/${process.env.PUBLIC_URL}`}>
         <div className="pb-60">
           <Routes>
             <Route path="/" element={<LandingPage />} />
