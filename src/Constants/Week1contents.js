@@ -179,6 +179,9 @@ export const Week1contents = [
   {
     text: `
     <p><u><a target="_blank" href="https://analyticsindiamag.com/linear-algebra-for-data-scientists-with-numpy/">Linear Algebra with Numpy</a></u></p>
+    <br>
+    <p><u><a target="_blank" href="https://www.kaggle.com/discussions/general/224685">Exercises for Numpy & Pandas</a></u></p>
+    
     `,
     message: "",
   },
