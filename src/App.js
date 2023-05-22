@@ -7,10 +7,9 @@ import MainHeader from "./ConstantComponents/MainHeader";
 import LandingPage from "./Pages/LandingPage";
 import Footer from "./ConstantComponents/Footer";
 
-// ("bg-[url('/images/Bg.svg')]");
 function App() {
   return (
-    <div className="App bg-[url('/images/Bg.svg')] bg-black bg-no-repeat">
+    <div className={`App bg-black bg-no-repeat`}>
       <div id="hover" className="hoverMessage"></div>
 
       {/* <TeamPage /> */}
