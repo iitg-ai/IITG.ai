@@ -197,24 +197,30 @@ export const Week1contents = [
     message: "",
   },
 
-  // {
-  //   text: "",
-  //   message: "",
-  // },
-  // {
-  //   text: "Assignments",
-  //   message: "",
-  // },
-  // {
-  //   text: `
-  //   <p><u><a target="_blank" href="https://drive.google.com/file/d/1GRy1nqmFX-tC7Xd7yxbAsnxwEuKCCt15/view?usp=sharing">Assignment 1 (Numpy)</a></u></p>
-  //   `,
-  //   message: "",
-  // },
-  // {
-  //   text: `
-  //   <p><u><a target="_blank" href="https://drive.google.com/file/d/1BQMMjQoXyTNmssnVlHT0eiFY_QRg-foe/view">Assignment 2 (Pandas)</a></u></p>
-  //   `,
-  //   message: "",
-  // },
+  {
+    text: "",
+    message: "",
+  },
+  {
+    text: "Assignments",
+    message: "",
+  },
+  {
+    text: `
+    <p><u><a target="_blank" href="https://drive.google.com/drive/folders/1nVVtohkT9ioemtXaP0KaDt4070nms0Uh?usp=sharing">Assignment 1 (Numpy)</a></u></p>
+    `,
+    message: "",
+  },
+  {
+    text: `
+    <p><u><a target="_blank" href="https://drive.google.com/drive/folders/1SteBMmCwoopOwhHkfV4gzrIzc_VYzF-e?usp=sharing">Assignment 2 (Pandas)</a></u></p>
+    `,
+    message: "",
+  },
+  {
+    text: `
+    <p>Quiz : Live 24th May</p>
+    `,
+    message: "",
+  },
 ];
