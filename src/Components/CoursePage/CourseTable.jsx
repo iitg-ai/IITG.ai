@@ -10,8 +10,7 @@ import TableHeader from "./TableHeader";
 import "./navstyles.css";
 
 const CourseTable = () => {
-  const [whichWeek, setWhichWeek] = useState(1);
-
+  const [whichWeek, setWhichWeek] = useState(2);
   return (
     <div className="lg:flex w-full">
       <div
@@ -19,20 +18,25 @@ const CourseTable = () => {
                       h-1/2 w-auto
                       mr-4
                       justify-items-start
-                      [&>button]:pt-3 [&>button]:px-4 [&>button]:pb-2 [&>button]:text-white/[.30]
+                      
+                      [&>button]:pt-3 [&>button]:px-4 [&>button]:pb-2 
+                      [&>button]:text-white/[0.3]
                       [&>button]:border-s-4
                       [&>button]:border-black
-                      [&>button.btn-disabled]:text-black
-                      [&>button.btn-disabled]:rounded-md
+                      [&>button]:w-full
+                      [&>button]:text-left
 
                       [&>button:nth-child(${whichWeek})]:border-s-4
-                      [&>button:nth-child(${whichWeek})]:text-white/[0.80]
                       [&>button:nth-child(${whichWeek})]:border-[#0AB1BC]
                       [&>button:nth-child(${whichWeek})]:rounded-md
                       [&>button:nth-child(${whichWeek})]:bg-[#FFFFFF22]
+                      [&>button:nth-child(${whichWeek})]:text-white
 
-                      [&>button]:w-full
-                      [&>button]:text-left
+
+                      [&>button.btn-disabled]:text-black
+                      [&>button.btn-disabled]:rounded-md
+
+
                       
                       `}
       >
@@ -44,13 +48,11 @@ const CourseTable = () => {
           Week 1
         </button>
         <button
-          disabled
-          className="btn-disabled"
           onClick={() => {
             setWhichWeek(2);
           }}
         >
-          Week 2 (coming soon)
+          Week 2
         </button>
         <button
           disabled

@@ -4,11 +4,6 @@ import { Week1contents } from "../../Constants/Week1contents";
 
 const Week1Grid = () => {
   const Cells = Week1contents.map((object, index) => {
-    let myDoc = new DOMParser();
-
-    let myElement = "<p>This is Linuxhint</p>";
-
-    // console.log(myElement)
     return (
       <GridCell
         key={index}
