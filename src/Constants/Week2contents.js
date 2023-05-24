@@ -71,16 +71,26 @@ export const Week2contents = [
   },
   {
     text: `
-      <p><u><a target="_blank" href="
-            https://www.youtube.com/watch?v=VmbA0pi2cRQ
-      ">
+      <p>
             Gradient Descent Implementation of Linear Regression from Scratch
-      </a></u>
-    <br>
-            (2 and 3)
       </p>
+    <br>
+    <p><u><a target="_blank" href="
+      https://www.youtube.com/watch?v=VmbA0pi2cRQ
+      ">
+      Video
+      </a></u>
+      </p>
+            <p><u><a target="_blank" href="
+            https://www.kaggle.com/code/fareselmenshawii/linear-regression-from-scratch
+            ">
+        Notebook
+      </a></u>
+        </p>
+            
       `,
-    message: "You don’t have to refer to both the video and the blog. Go with either one of them, which you feel comfortable to follow along.",
+    message:
+      "You don’t have to refer to both the video and the blog. Go with either one of them, which you feel comfortable to follow along.",
   },
   {
     text: `
@@ -110,6 +120,8 @@ export const Week2contents = [
   {
     text: `
         Logistic Regression and its Implementations
+        <br>
+        <br>
 
         Completes the Logistic Regression model, and covers its Sklearn Implementation, and Gradient Descent from Scratch.
     
@@ -170,6 +182,8 @@ export const Week2contents = [
   {
     text: `
     Regularization and Naive Bayes
+    <br>
+    <br>
 
     Covers Regularization for addressing the problem of Overfitting, and its Implementation. Covers basic terminologies like Bias and Variance. Introduces you with the popular Naive Bayes Algorithm.
     `,
@@ -213,6 +227,8 @@ export const Week2contents = [
         Multinomial Naive Bayes Algorithm
     </a></u>
     </p>
+    <br>
+
     <p><u><a target="_blank" href="
         https://www.youtube.com/watch?v=H3EjCKtlVog
     ">
@@ -231,11 +247,24 @@ export const Week2contents = [
         Implementation of Regularization
     </a></u>
     </p>
+    <br>
+
     <p><u><a target="_blank" href="
         https://www.youtube.com/watch?v=PPeaRc-r1OI&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw&index=15
     ">
         Implementation of Naive Bayes Algorithm
     </a></u>
+    <br>
+    (14 and 15)
+    </p>
+    <br>
+
+    <p><u><a target="_blank" href="
+    https://scikit-learn.org/stable/modules/naive_bayes.html
+    ">
+    Documentation of Sklearn Naive Bayes
+    </a></u>
+    <br>
     </p>
     `,
     message: "",
@@ -248,6 +277,8 @@ export const Week2contents = [
   {
     text: `
     Evaluation Metrics 
+    <br>
+    <br>
 
     Introduces Evaluation Metrics to judge both Classification and Regression Models, and their Implementation. Covers ROC Curve and AUC.       
     `,
@@ -364,6 +395,15 @@ export const Week2contents = [
     Regularization in Logistic Regression
     </a></u>
     </p>
+    <br>
+    <p><u><a target="_blank" href="
+    https://towardsdatascience.com/intuitions-on-l1-and-l2-regularisation-235f2db4c261
+    ">
+    Detailed Explanation behind Regularization
+    </a></u>
+    <br>
+    (Blog)
+    </p>
     `,
     message: "",
   },
@@ -383,7 +423,7 @@ export const Week2contents = [
     </a></u>
     </p>
     `,
-    message: "",
+    message: "You don’t have to refer to both the Video and the Notebook. Go with either one of them, which you feel comfortable to follow along.",
   },
 
   //   {
