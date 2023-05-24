@@ -135,8 +135,6 @@ export const Week2contents = [
     ">
         Cost Function, and Gradient Descent in Logistic Regression
     </a></u>
-    <br>
-        (34 to 36)
     </p>
     `,
     message: "",
