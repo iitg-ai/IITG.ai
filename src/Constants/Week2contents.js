@@ -90,7 +90,7 @@ export const Week2contents = [
             
       `,
     message:
-      "You don’t have to refer to both the video and the blog. Go with either one of them, which you feel comfortable to follow along.",
+      "You don’t have to refer to both the Video and the Notebook. Go with either one of them, which you feel comfortable to follow along.",
   },
   {
     text: `
@@ -409,19 +409,23 @@ export const Week2contents = [
   },
   {
     text: `
-    <p><u><a target="_blank" href="
-    https://www.youtube.com/watch?v=3I8oX3OUL6I
-    ">
-    Naive Bayes Algorithm 
-    </a></u>
+    <p>
+    Naive Bayes Algorithm. <br>
+    Implementation from Scratch in Python
     </p>
     <br>
     <p><u><a target="_blank" href="
     https://www.youtube.com/watch?v=3I8oX3OUL6I
-    ">
-        Implementation from Scratch in Python
-    </a></u>
-    </p>
+      ">
+      Video
+      </a></u>
+      </p>
+            <p><u><a target="_blank" href="
+            https://www.kaggle.com/code/fareselmenshawii/naive-bayes-from-scratch
+            ">
+        Notebook
+      </a></u>
+        </p>
     `,
     message: "You don’t have to refer to both the Video and the Notebook. Go with either one of them, which you feel comfortable to follow along.",
   },
