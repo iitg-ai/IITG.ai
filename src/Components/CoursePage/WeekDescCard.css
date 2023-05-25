@@ -4,7 +4,7 @@
   border-radius: 12px;
   box-sizing: border-box;
   width: 400px;
-  height: 250px;
+  /* height: 250px; */
   background: rgba(40, 40, 40, 0.05);
   box-shadow: 12px 4px 160px rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(40px);

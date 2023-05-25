@@ -15,7 +15,7 @@ const CourseCards = () => {
         description="The 7 week course takes you from basic Python to complex neural networks. The course is structured  as follows:"
       />
       <div className="mt-8 max-lg:hidden">
-        <div className="flex justify-between h-64">
+        <div className="flex justify-between h-64 [&>*]:ml-4 ">
           <WeekDescCard
             tag1="Python"
             tag2="Data Manipulation"
@@ -40,7 +40,7 @@ const CourseCards = () => {
           <img src={Hackathon1} />
         </div>
         <div className="mt-6 mx-52">
-          <div className="flex justify-between w-full h-64">
+          <div className="flex justify-between w-full h-64 [&>*]:ml-4">
             <WeekDescCard
               tag1="EDA"
               tag2="Real World Data"
