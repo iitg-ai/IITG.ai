@@ -223,7 +223,9 @@ export const Week1contents = [
   },
   {
     text: `
-    <p>Quiz : Live 24th May</p>
+    <p><u><a target="_blank" href="https://forms.gle/GRfQ1nr17Ua9Jh419">Quiz </a></u>
+     : Live now
+    </p>
     `,
     message: "",
   },
