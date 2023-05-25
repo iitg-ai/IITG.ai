@@ -1,4 +1,18 @@
 .btn-disabled {
   background: rgba(48, 48, 48, 0.8);
   backdrop-filter: blur(8px);
+  color: black;
+  border-radius: 12px;
+}
+
+.btn-enabled {
+  color: white;
+  border-left-width: 4px;
+  border-left-color: green;
+  background: linear-gradient(
+    93.62deg,
+    rgba(255, 255, 255, 0.024) -9.69%,
+    rgba(255, 255, 255, 0.06) 126.74%
+  );
+  backdrop-filter: blur(8px);
 }

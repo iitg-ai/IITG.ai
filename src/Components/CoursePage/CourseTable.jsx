@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Week1Grid from "./Week1Grid";
 import Week2Grid from "./Week2Grid";
 import Week3Grid from "./Week3Grid";
@@ -10,46 +10,67 @@ import TableHeader from "./TableHeader";
 import "./navstyles.css";
 
 const CourseTable = () => {
-  const [whichWeek, setWhichWeek] = useState(2);
+  const [whichWeek, setWhichWeek] = useState(1);
+  const changeWeek = (newWeek) => {
+    // console.log(document.getElementById("btn-panel").childNodes);
+
+    setWhichWeek(newWeek);
+
+    const btns = document.getElementById("btn-panel").childNodes;
+    btns.forEach((btn) => {
+      if (btn.className === "btn-enabled") {
+        btn.style.color = "rgba(255, 255, 255, 0.5)";
+        btn.style.backgroundColor = "black";
+        btn.style.borderLeftColor = "black";
+      }
+    });
+    const targetBtn =
+      document.getElementById("btn-panel").childNodes[newWeek - 1];
+    targetBtn.style.borderLeftColor = "#0AB1BC";
+    targetBtn.style.backgroundColor = "#FFFFFF22";
+    targetBtn.style.color = "white";
+  };
+
+  // changeWeek(2);
+  useEffect(() => {
+    changeWeek(2);
+  }, []);
+
   return (
     <div className="lg:flex w-full">
       <div
+        id="btn-panel"
         className={`grid gap-1 grid-cols-1 
                       h-1/2 w-auto
                       mr-4
                       justify-items-start
+
+                      [&>button:nth-child(${1})]:border-[#0AB1BC]
+                      [&>button:nth-child(${1})]:bg-[#FFFFFF22]
+                      [&>button:nth-child(${1})]:text-white
                       
                       [&>button]:pt-3 [&>button]:px-4 [&>button]:pb-2 
-                      [&>button]:text-white/[0.3]
-                      [&>button]:border-s-4
-                      [&>button]:border-black
+                      
                       [&>button]:w-full
                       [&>button]:text-left
+                      [&>button]:rounded-md
 
-                      [&>button:nth-child(${whichWeek})]:border-s-4
-                      [&>button:nth-child(${whichWeek})]:border-[#0AB1BC]
-                      [&>button:nth-child(${whichWeek})]:rounded-md
-                      [&>button:nth-child(${whichWeek})]:bg-[#FFFFFF22]
-                      [&>button:nth-child(${whichWeek})]:text-white
-
-
-                      [&>button.btn-disabled]:text-black
-                      [&>button.btn-disabled]:rounded-md
-
-
-                      
                       `}
       >
         <button
+          className="btn-enabled"
           onClick={() => {
             setWhichWeek(1);
+            changeWeek(1);
           }}
         >
           Week 1
         </button>
         <button
+          className="btn-enabled"
           onClick={() => {
             setWhichWeek(2);
+            changeWeek(2);
           }}
         >
           Week 2
