@@ -1,0 +1,38 @@
+#leaderboard-header {
+  display: grid;
+  grid-template-columns: repeat(22, minmax(0, 1fr));
+}
+
+#leaderboard-header > div {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  /* or 16px */
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+
+  text-shadow: 1px 2px 12px rgba(0, 0, 0, 0.25);
+}
+
+#leaderboard-row > div {
+  display: grid;
+  grid-template-columns: repeat(22, minmax(0, 1fr));
+  
+  background: #0e0d0e;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 4px;
+}
+
+#leaderboard-row:hover > div {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    #0e0d0e;
+}

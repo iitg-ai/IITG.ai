@@ -2,10 +2,9 @@ import "./App.css";
 import "./Components/HoverMessage.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CoursePage from "./Pages/CoursePage";
-import TeamPage from "./Pages/TeamPage";
-import MainHeader from "./ConstantComponents/MainHeader";
 import LandingPage from "./Pages/LandingPage";
 import Footer from "./ConstantComponents/Footer";
+import Leaderboard from "./Pages/Leaderboard";
 
 function App() {
   return (
@@ -19,6 +18,7 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             {/* <Route path="/team" element={<TeamPage />} /> */}
             <Route path="/coursePage" element={<CoursePage />} />
+            <Route path="/coursePage/leaderboard" element={<Leaderboard />} />
           </Routes>
         </div>
         <Footer />
