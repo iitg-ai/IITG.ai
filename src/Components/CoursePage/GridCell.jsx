@@ -5,6 +5,10 @@ const GridCell = (props) => {
     <div
       onMouseOver={(event) => {
         let elem = event.target;
+        while (elem.nodeName != "DIV") {
+          elem = elem.parentElement;
+        }
+
         let coords = elem.getBoundingClientRect();
         let message = document.getElementById("hover");
 

@@ -60,7 +60,6 @@ const CourseTable = () => {
         <button
           className="btn-enabled"
           onClick={() => {
-            setWhichWeek(1);
             changeWeek(1);
           }}
         >
@@ -69,7 +68,6 @@ const CourseTable = () => {
         <button
           className="btn-enabled"
           onClick={() => {
-            setWhichWeek(2);
             changeWeek(2);
           }}
         >
