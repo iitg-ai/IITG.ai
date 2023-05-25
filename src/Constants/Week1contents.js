@@ -143,7 +143,11 @@ export const Week1contents = [
     text: `
     <p><u><a target="_blank" href="https://neerajww.github.io/da213/intro.html">Data Visualization and Introduction to Matplotlib Tutorial</a></u></p>
     <br>
-    <p><u><a target="_blank" href="https://drive.google.com/drive/folders/1V6qMJ-GFE-oHcR45EitkPxPDYFn9E6DA?usp=sharing">Data for visualization</a></u></p>
+    <p><u><a target="_blank" href="https://drive.google.com/drive/folders/1V6qMJ-GFE-oHcR45EitkPxPDYFn9E6DA?usp=sharing">Data for visualization</a></u>
+    and
+    <u><a target="_blank" href="https://drive.google.com/file/d/1UhAkvxPgGY7Zfxo4MwvXqd5YZlpIBkED/view?usp=sharing">Solutions</a></u>
+
+    </p>
     `,
     message: `By Dr. Neeraj Sharma from DSAI, IITG.
     
