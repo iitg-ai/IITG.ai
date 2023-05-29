@@ -1,16 +1,23 @@
 import React from "react";
-import Papa from "papaparse";
 import LeaderboardRow from "./LeaderboardRow.jsx";
-// import * as fs from "node:fs/promises";
-const fs = require("fs");
 
-const LeaderboardBody = () => {
+const LeaderboardBody = (props) => {
+  console.log(props.data);
+  const rows = props.data.map((object, index) => {
+    const score = object.Score.split(" / ")[0];
 
-  return (
-    <div>
-      <LeaderboardRow />
-    </div>
-  );
+    return (
+      <LeaderboardRow
+        key={index + 1}
+        index={index + 1}
+        uniqueID={object.UniqueID}
+        name={object.Name}
+        w1={score}
+      />
+    );
+  });
+
+  return <div>{rows}</div>;
 };
 
 export default LeaderboardBody;

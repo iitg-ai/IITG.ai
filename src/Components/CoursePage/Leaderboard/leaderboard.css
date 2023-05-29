@@ -1,25 +1,30 @@
 #leaderboard-header {
   display: grid;
   grid-template-columns: repeat(22, minmax(0, 1fr));
+  background: linear-gradient(
+    93.62deg,
+    rgba(255, 255, 255, 0.056) -9.69%,
+    rgba(255, 255, 255, 0.08) 126.74%
+  );
+  backdrop-filter: blur(8px);
+  border-radius: 4px;
 }
 
 #leaderboard-header > div {
   font-weight: 400;
   font-size: 14px;
   line-height: 135%;
-  /* or 16px */
-
   letter-spacing: 0.02em;
-
   color: #ffffff;
-
   text-shadow: 1px 2px 12px rgba(0, 0, 0, 0.25);
 }
 
-#leaderboard-row > div {
+#leaderboard-row {
   display: grid;
   grid-template-columns: repeat(22, minmax(0, 1fr));
-  
+}
+
+#leaderboard-row > div {
   background: #0e0d0e;
   border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);

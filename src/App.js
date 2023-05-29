@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CoursePage from "./Pages/CoursePage";
 import LandingPage from "./Pages/LandingPage";
 import Footer from "./ConstantComponents/Footer";
-import Leaderboard from "./Pages/Leaderboard";
+import LeaderboardPage from "./Pages/LeaderboardPage";
+
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             {/* <Route path="/team" element={<TeamPage />} /> */}
             <Route path="/coursePage" element={<CoursePage />} />
-            <Route path="/coursePage/leaderboard" element={<Leaderboard />} />
+            <Route path="/coursePage/leaderboard" element={<LeaderboardPage />} />
           </Routes>
         </div>
         <Footer />
