@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# result files
+src\Constants\ML.AI Week-1 Quiz (Graded) (Responses) - Form Responses 1.csv

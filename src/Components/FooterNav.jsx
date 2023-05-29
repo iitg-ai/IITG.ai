@@ -11,7 +11,7 @@ const FooterNav = () => {
   const location = useLocation();
 
   const generic_line =
-    location.pathname === "/" || location.pathname === "/coursePage"
+    location.pathname === "/" || location.pathname === "/coursePage" || location.pathname === "/coursePage/leaderboard"
       ? "Torture the data, and it will confess to anything."
       : "Coming Soon";
 

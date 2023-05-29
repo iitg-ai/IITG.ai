@@ -5,6 +5,7 @@ import CourseCards from "../Components/CoursePage/6Cards";
 import Weekss from "../Images/Weekss.svg";
 import "./Bored.css";
 import CourseHeader from "../Components/CoursePage/CourseHeader";
+import { Link } from "react-router-dom";
 
 const CoursePage = () => {
   const discordInvite = "https://discord.gg/f77NPvPzwB";
@@ -66,6 +67,25 @@ const CoursePage = () => {
       </div>
       <div id="curriculum" className="mx-20 lg:mt-20">
         <div className="h-10"></div>
+
+        <div
+          className={`
+          [&>button]:border-[#ffffff22]
+                      [&>button]:text-white
+                      [&>button]:pt-3 [&>button]:px-4 [&>button]:pb-2 
+                      [&>button]:text-left
+                      [&>button]:rounded-md
+                      w-full
+                      flex justify-center
+                      mb-4
+          `}
+        >
+          <button>
+            <Link to="/coursePage/leaderboard">
+              <u>Leaderboard</u>
+            </Link>
+          </button>
+        </div>
         <CourseTable />
       </div>
     </div>
