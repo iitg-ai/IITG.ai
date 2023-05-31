@@ -426,34 +426,32 @@ export const Week2contents = [
       </a></u>
         </p>
     `,
-    message: "You don’t have to refer to both the Video and the Notebook. Go with either one of them, which you feel comfortable to follow along.",
+    message:
+      "You don’t have to refer to both the Video and the Notebook. Go with either one of them, which you feel comfortable to follow along.",
   },
 
-  //   {
-  //     text: "",
-  //     message: "",
-  //   },
-  //   {
-  //     text: "Assignments",
-  //     message: "",
-  //   },
-  //   {
-  //     text: `
-  //       <p><u><a target="_blank" href="https://drive.google.com/drive/folders/1nVVtohkT9ioemtXaP0KaDt4070nms0Uh?usp=sharing">Assignment 1 (Numpy)</a></u></p>
-  //       `,
-  //     message: "",
-  //   },
-  //   {
-  //     text: `
-  //       <p><u><a target="_blank" href="https://drive.google.com/drive/folders/1SteBMmCwoopOwhHkfV4gzrIzc_VYzF-e?usp=sharing">Assignment 2 (Pandas)</a></u></p>
-  //       `,
-  //     message: "",
-  //   },
-  //   {
-  //     text: `
-  //       <p>Quiz : Live 24th May</p>
-  //       `,
-  //     message: "",
-  //   },
-  //
+  {
+    text: "",
+    message: "",
+  },
+  {
+    text: "Assignments",
+    message: "",
+  },
+  {
+    text: `
+        <p><a target="_blank" href="
+        https://forms.gle/TA2dj5vz2wT8QdgY8
+          "><u>Quiz : Live Now</u><a></p>
+        `,
+    message: "",
+  },
+  {
+    text: "",
+    message: "",
+  },
+  {
+    text: "",
+    message: "",
+  },
 ];
