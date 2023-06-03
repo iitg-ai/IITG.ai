@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Leaderboard from "../Components/CoursePage/Leaderboard/Leaderboard";
 import CourseHeader from "../Components/CoursePage/CourseHeader";
 
