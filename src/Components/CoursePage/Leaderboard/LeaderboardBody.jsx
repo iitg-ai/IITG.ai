@@ -4,7 +4,8 @@ import LeaderboardRow from "./LeaderboardRow.jsx";
 const LeaderboardBody = (props) => {
   console.log(props.data);
   const rows = props.data.map((object, index) => {
-    const score = object.Score.split(" / ")[0];
+    const score = object.Score;
+    // const score = object.Score.split(" / ")[0];
 
     return (
       <LeaderboardRow
