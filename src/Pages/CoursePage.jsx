@@ -80,11 +80,11 @@ const CoursePage = () => {
                       mb-4
           `}
         >
-          {/* <button>
+          <button>
             <Link to="/coursePage/leaderboard">
               <u>Leaderboard</u>
             </Link>
-          </button> */}
+          </button>
         </div>
         <CourseTable />
       </div>
