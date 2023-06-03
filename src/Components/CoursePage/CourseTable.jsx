@@ -76,7 +76,7 @@ const CourseTable = () => {
         <button
           className="btn-enabled"
           onClick={() => {
-            setWhichWeek(3);
+            changeWeek(3);
           }}
         >
           Week 3
