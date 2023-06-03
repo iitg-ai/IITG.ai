@@ -22,11 +22,9 @@ const Leaderboard = () => {
     };
     handleParse();
   }, []);
-  // console.log("hello", result);
-  // console.log(result.data[0].UniqueID);
 
   return (
-    <div className="grid grid-cols-1">
+    <div className="grid grid-cols-1 max-lg:hidden">
       <div>
         <LeaderboardHeader />
       </div>

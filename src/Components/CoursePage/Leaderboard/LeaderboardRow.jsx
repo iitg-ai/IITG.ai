@@ -6,7 +6,7 @@ const LeaderboardRow = (props) => {
   const uniqueID = props.uniqueID;
   const name = props.name;
   let w1 = props.w1 ? props.w1 : 0;
-  w1 = parseInt(w1);
+  w1 = parseFloat(w1);
   const w2 = props.w2 ? props.w2 : 0;
   const w3 = props.w3 ? props.w3 : 0;
   const w5 = props.w5 ? props.w5 : 0;

@@ -1,6 +1,7 @@
 #leaderboard-header {
   display: grid;
   grid-template-columns: repeat(22, minmax(0, 1fr));
+
   background: linear-gradient(
     93.62deg,
     rgba(255, 255, 255, 0.056) -9.69%,
