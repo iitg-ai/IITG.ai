@@ -13,9 +13,15 @@ export const Week3contents = [
   },
   {
     text: `
-        
+    <p><u><a target="_blank" href="
+    https://youtu.be/efR1C6CvhmE
+    ">
+    SVM Introduction Video
+    </a></u>
+    </p>
         `,
-    message: ``,
+    message: `View all three segments of the playlist.
+    `,
   },
   {
     text: `
@@ -27,14 +33,15 @@ export const Week3contents = [
       </p>
         <br>
         <br>
-      <p>Hindi: <u><a target="_blank" href="
+      <p><u><a target="_blank" href="
       https://www.youtube.com/playlist?list=PLKnIA16_RmvbOIFee-ra7U6jR2oIbCZBL
       ">
-      Campus X
+      Comprehensive Explanation with Code for SVM
       </a></u>
       </p> 
      `,
-    message: ``,
+    message: `Watch the whole playlist with the code for a complete understanding
+    `,
   },
   {
     text: `
@@ -61,7 +68,12 @@ export const Week3contents = [
   },
   {
     text: `
-        
+    <p><u><a target="_blank" href="
+    https://youtu.be/HVXime0nQeI
+    ">
+    K-nearest Neighbors Introduction Video
+    </a></u>
+    </p>
         `,
     message: "",
   },
@@ -97,11 +109,12 @@ export const Week3contents = [
       <p><u><a target="_blank" href="
       https://youtu.be/W01tIRP_Rqs
       ">
-        Video
+      Supervised vs Unsupervised Learning Video
       </a></u>
       </p>
         `,
-    message: "",
+    message: `Introduction to Unsupervised Learning, with an additional example in the Bonus section.
+    `,
   },
 
   {
@@ -125,7 +138,20 @@ export const Week3contents = [
   },
   {
     text: `
-      
+    <p><u><a target="_blank" href="
+    https://www.youtube.com/watch?v=4b5d3muPQmA&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=40
+    ">
+    K-means Introduction Video
+    </a></u>
+    </p>
+    <br>
+    <br>
+    <p><u><a target="_blank" href="
+    https://www.youtube.com/watch?v=AWKCCK5YHsE
+    ">
+    K-means Clustering Intuition and reasoning Video
+    </a></u>
+      </p>
       `,
     message: "",
   },
@@ -166,7 +192,8 @@ export const Week3contents = [
       </a></u>
       </p>
       `,
-    message: ``,
+    message: `Also look at the Bonus Section for more clustering algorithms.
+    `,
   },
 
   {
@@ -175,23 +202,23 @@ export const Week3contents = [
   },
   {
     text: `
-    PCA
-    <br>
+      PCA
       <br>
-      PCA is a widely used unsupervised learning technique that reduces the dimensionality of high-dimensional data by identifying the most important features or principal components.  
-
+      <br>
+      PCA is a widely used unsupervised learning technique that reduces the dimensionality of high-dimensional data by identifying the most important features or principal components
       `,
     message: "",
   },
   {
     text: `
       <p><u><a target="_blank" href="
-          https://www.youtube.com/watch?v=8upNQi-40Q8&list=PLkDaE6sCZn6FNC6YRfRQc_FbeQrF8BwGI&index=37
+      https://www.youtube.com/watch?v=FgakZw6K1QQ&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=29
       ">
-        fill here
+      PCA Introduction Video
       </a></u>
-      <br>
       </p>
+
+      <br>
       <br>
   
       <p><u><a target="_blank" href="
@@ -199,6 +226,8 @@ export const Week3contents = [
       ">
       Principal Component Analysis(PCA)
       </a></u>
+      <br>
+      Guide Blog
       </p>
       <br>
 
@@ -250,7 +279,8 @@ export const Week3contents = [
       </a></u>
       </p>
       `,
-    message: "",
+    message: `Watch both parts of Decision Trees.
+    `,
   },
   {
     text: `
@@ -280,7 +310,8 @@ export const Week3contents = [
           </a></u>
       </p>
       `,
-    message: "",
+    message: `Practice Further on Decision Trees with this as well as in Bonus Content.
+    `,
   },
 
   {
@@ -293,7 +324,6 @@ export const Week3contents = [
     <br>
     <br>
     Also covers an example of Unsupervised learning.
-    
     `,
     message: "",
   },
@@ -310,11 +340,24 @@ export const Week3contents = [
       <p><u><a target="_blank" href="
       https://youtu.be/_So8j8T-E1o
     ">
-      Video
+    SVD Explanatory Video
     </a></u>
       </p>
       `,
-    message: ``,
+    message: `Choose whichever of these you feel most comfortable following.
+    `,
+  },
+  {
+    text: `
+    <p><u><a target="_blank" href="
+    https://www.kaggle.com/code/fareselmenshawii/decision-tree-from-scratch?scriptVersionId=130941860
+    ">
+    Decision Tree From Scratch
+    </a></u>
+    (Notebook)
+    </p>
+      `,
+    message: "",
   },
   {
     text: `
@@ -326,13 +369,8 @@ export const Week3contents = [
       </p>
       
       `,
-    message: "",
-  },
-  {
-    text: `
-      
-      `,
-    message: "",
+    message: `A case study for using Unsupervised Learning techniques is offered
+    `,
   },
 
   //   {
