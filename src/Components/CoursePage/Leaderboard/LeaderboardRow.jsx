@@ -13,7 +13,9 @@ const LeaderboardRow = (props) => {
   const w6 = props.w6 ? props.w6 : 0;
   const hack1 = props.hack1 ? props.hack1 : 0;
   const hack2 = props.hack2 ? props.hack2 : 0;
-  const total = w1 + w2 + w3 + w5 + w6 + hack1 + hack2;
+  const total = props.total
+    ? props.total
+    : w1 + w2 + w3 + w5 + w6 + hack1 + hack2;
 
   return (
     <div
