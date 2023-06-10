@@ -12,7 +12,9 @@ const LeaderboardBody = (props) => {
         index={index + 1}
         uniqueID={object.UniqueID}
         name={object.Name}
-        w1={score}
+        w1={object.Week1}
+        w2={object.Week2}
+        total={object.Total}
       />
     );
   });
