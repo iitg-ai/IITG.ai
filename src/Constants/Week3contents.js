@@ -373,28 +373,32 @@ export const Week3contents = [
     `,
   },
 
-  //   {
-  //     text: "",
-  //     message: "",
-  //   },
-  //   {
-  //     text: "Assignments",
-  //     message: "",
-  //   },
-  //   {
-  //     text: `
-  //           <p><a target="_blank" href="
-  //           https://forms.gle/TA2dj5vz2wT8QdgY8
-  //             "><u>Quiz : Live Now</u><a></p>
-  //           `,
-  //     message: "",
-  //   },
-  //   {
-  //     text: "",
-  //     message: "",
-  //   },
-  //   {
-  //     text: "",
-  //     message: "",
-  //   },
+  {
+    text: "",
+    message: "",
+  },
+  {
+    text: "Assignments",
+    message: "",
+  },
+  {
+    text: `
+            <p><a target="_blank" href="
+            https://forms.gle/GKKhFJLdfZTLNx3EA
+            "><u>Quiz : Live Now</u><a></p>
+            `,
+    message: "",
+  },
+  {
+    text: `
+      <p><a target="_blank" href="
+      https://drive.google.com/file/d/1TNODmLpXrNhzNYuVkcHwy9CAkVbVSr6x/view?usp=sharing
+      "><u>Assignment</u><a></p>
+      `,
+    message: "",
+  },
+  {
+    text: "",
+    message: "",
+  },
 ];
