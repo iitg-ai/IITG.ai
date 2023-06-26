@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Week1Grid from "./Week1Grid";
 import Week2Grid from "./Week2Grid";
 import Week3Grid from "./Week3Grid";
-import Week4Grid from "./Week4Grid";
 import Week5Grid from "./Week5Grid";
 import Week6Grid from "./Week6Grid";
 import AdditionalMaterials from "./AdditionalMaterials";
