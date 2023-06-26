@@ -2,7 +2,7 @@ import React from "react";
 import GridCell from "./GridCell";
 import { Week3contents } from "../../Constants/Week3contents";
 
-const Week2Grid = () => {
+const Week3Grid = () => {
   const Cells = Week3contents.map((object, index) => {
     return (
       <GridCell
@@ -38,4 +38,4 @@ const Week2Grid = () => {
   );
 };
 
-export default Week2Grid;
+export default Week3Grid;

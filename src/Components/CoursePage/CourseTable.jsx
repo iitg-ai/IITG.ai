@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Week1Grid from "./Week1Grid";
 import Week2Grid from "./Week2Grid";
 import Week3Grid from "./Week3Grid";
-import Week4Grid from "./Week4Grid";
 import Week5Grid from "./Week5Grid";
 import Week6Grid from "./Week6Grid";
 import AdditionalMaterials from "./AdditionalMaterials";
@@ -33,7 +32,7 @@ const CourseTable = () => {
 
   // changeWeek(2);
   useEffect(() => {
-    changeWeek(3);
+    changeWeek(4);
   }, []);
 
   return (
@@ -81,7 +80,7 @@ const CourseTable = () => {
         >
           Week 3
         </button>
-        <button
+        {/* <button
           disabled
           className="btn-disabled"
           onClick={() => {
@@ -89,21 +88,20 @@ const CourseTable = () => {
           }}
         >
           Week 4 (coming soon)
-        </button>
+        </button> */}
         <button
-          disabled
-          className="btn-disabled"
+          className="btn-enabled"
           onClick={() => {
-            setWhichWeek(5);
+            changeWeek(4);
           }}
         >
-          Week 5 (coming soon)
+          Week 5
         </button>
         <button
           disabled
           className="btn-disabled"
           onClick={() => {
-            setWhichWeek(6);
+            changeWeek(5);
           }}
         >
           Week 6 (coming soon)
@@ -112,7 +110,7 @@ const CourseTable = () => {
           disabled
           className="btn-disabled"
           onClick={() => {
-            setWhichWeek(7);
+            changeWeek(6);
           }}
         >
           Additional Materials
@@ -132,7 +130,7 @@ const CourseTable = () => {
             ) : whichWeek === 3 ? (
               <Week3Grid />
             ) : whichWeek === 4 ? (
-              <Week4Grid />
+              <Week5Grid />
             ) : whichWeek === 5 ? (
               <Week5Grid />
             ) : whichWeek === 6 ? (
