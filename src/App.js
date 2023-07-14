@@ -1,5 +1,5 @@
 import "./App.css";
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 import "./Components/HoverMessage.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CoursePage from "./Pages/CoursePage";
@@ -29,7 +29,7 @@ function App() {
           <Footer />
         </Router>
       </div>
-      <Analytics mode={'production'} />;
+      <Analytics mode={"production"} />
     </>
   );
 }
