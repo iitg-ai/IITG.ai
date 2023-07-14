@@ -6,7 +6,6 @@ import LandingPage from "./Pages/LandingPage";
 import Footer from "./ConstantComponents/Footer";
 import LeaderboardPage from "./Pages/LeaderboardPage";
 
-
 function App() {
   return (
     <div className={`App bg-black bg-no-repeat`}>
@@ -19,7 +18,10 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             {/* <Route path="/team" element={<TeamPage />} /> */}
             <Route path="/coursePage" element={<CoursePage />} />
-            <Route path="/coursePage/leaderboard" element={<LeaderboardPage />} />
+            <Route
+              path="/coursePage/leaderboard"
+              element={<LeaderboardPage />}
+            />
           </Routes>
         </div>
         <Footer />
