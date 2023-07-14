@@ -32,7 +32,7 @@ const CourseTable = () => {
 
   // changeWeek(2);
   useEffect(() => {
-    changeWeek(4);
+    changeWeek(5);
   }, []);
 
   return (
@@ -98,13 +98,12 @@ const CourseTable = () => {
           Week 5
         </button>
         <button
-          disabled
-          className="btn-disabled"
+          className="btn-enabled"
           onClick={() => {
             changeWeek(5);
           }}
         >
-          Week 6 (coming soon)
+          Week 6
         </button>
         <button
           disabled
@@ -132,7 +131,7 @@ const CourseTable = () => {
             ) : whichWeek === 4 ? (
               <Week5Grid />
             ) : whichWeek === 5 ? (
-              <Week5Grid />
+              <Week6Grid />
             ) : whichWeek === 6 ? (
               <Week6Grid />
             ) : (
