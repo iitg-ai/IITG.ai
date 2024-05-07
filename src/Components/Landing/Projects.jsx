@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectDescription from "./ProjectDescription";
-import Card from "./Card";
-import ProjectsCarousel from "./../ProjectsCarousel";
+import Card from "./ThreeLineDescription";
+import ProjectsCarousel from "./ProjectsCarousel";
 import GithubIcon2 from "../../Icons/GithubIcon2";
 
 const LandingPageProjects = (props) => {

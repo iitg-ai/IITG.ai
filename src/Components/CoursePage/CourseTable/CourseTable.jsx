@@ -6,7 +6,7 @@ import Week5Grid from "./Week5Grid";
 import Week6Grid from "./Week6Grid";
 import AdditionalMaterials from "./AdditionalMaterials";
 import TableHeader from "./TableHeader";
-import "./navstyles.css";
+import "./CourseTableNavStyles.css";
 
 const CourseTable = () => {
   const [whichWeek, setWhichWeek] = useState(1);

@@ -1,5 +1,5 @@
 import React from "react";
-import TempCard from "../../Images/tempcard.svg";
+import TempCard from "../../../Images/tempcard.svg";
 import "./WeekDescCard.css";
 
 const WeekDescCard = ({ tag1, tag2, tag3, whichWeek, description }) => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./FooterNav.css";
-import QuotationIcon from "../Icons/QuotationIcon";
+import QuotationIcon from "../../Icons/QuotationIcon";
 
 const FooterNav = () => {
   const INSTAGRAM = "https://instagram.com/iitg.ai";

@@ -1,7 +1,6 @@
 import React from "react";
-import Logo from "../../Images/Logo.svg";
-import { DeployedUrl } from "../../Constants/Deployed";
-import { Link } from "react-router-dom";
+import Logo from "../../../Images/Logo.svg";
+import { DeployedUrl } from "../../../Constants/Deployed";
 
 const CourseHeader = () => {
   const regFormLink = "https://forms.gle/z7EgSHUKU2mHmih59";

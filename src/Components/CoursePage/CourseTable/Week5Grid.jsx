@@ -1,6 +1,6 @@
 import React from "react";
 import GridCell from "./GridCell";
-import { Week5contents } from "../../Constants/Week5contents";
+import { Week5contents } from "../../../Constants/CourseContents/Week5contents";
 
 const Week5Grid = () => {
   const Cells = Week5contents.map((object, index) => {

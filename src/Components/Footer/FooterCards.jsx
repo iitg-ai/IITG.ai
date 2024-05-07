@@ -1,6 +1,6 @@
 import React from "react";
-import FooterTiles1 from "./../Images/FooterTiles1.svg";
-import FooterTiles2 from "./../Images/FooterTiles2.svg";
+import FooterTiles1 from "./../../Images/FooterTiles1.svg";
+import FooterTiles2 from "./../../Images/FooterTiles2.svg";
 import FooterCard from "./FooterCard";
 import "./FooterCard.css";
 import { Link } from "react-router-dom";

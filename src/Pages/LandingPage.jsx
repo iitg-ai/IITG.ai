@@ -1,5 +1,5 @@
 import React from "react";
-import Marquee from "../Components/Marquee";
+import Marquee from "../Components/Landing/Marquee";
 import LandingPageProjects from "../Components/Landing/Projects";
 import Events from "../Components/Landing/Events";
 import { Splide } from "@splidejs/splide";
