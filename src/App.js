@@ -1,5 +1,4 @@
 import "./App.css";
-import { Analytics } from "@vercel/analytics/react";
 import "./Components/HoverMessage.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CoursePage from "./Pages/CoursePage";
@@ -7,12 +6,10 @@ import LandingPage from "./Pages/LandingPage";
 import Footer from "./ConstantComponents/Footer";
 import LeaderboardPage from "./Pages/LeaderboardPage";
 
-
 function App() {
   return (
-    <>
-      <div className={`App bg-black bg-no-repeat`}>
-        <div id="hover" className="hoverMessage"></div>
+    <div className={`App bg-black bg-no-repeat`}>
+      <div id="hover" className="hoverMessage"></div>
 
       {/* <TeamPage /> */}
       <Router>
