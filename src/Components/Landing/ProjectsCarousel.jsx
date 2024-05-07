@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import "@splidejs/splide/css";
 // import Splide from "@splidejs/splide";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
-import RightArrowIcon from "../Icons/RightArrowIcon";
-import LeftArrowIcon from "../Icons/LeftArrowIcon";
-import ProjectDescription from "./Landing/ProjectDescription";
+import RightArrowIcon from "../../Icons/RightArrowIcon";
+import LeftArrowIcon from "../../Icons/LeftArrowIcon";
+import ProjectDescription from "./ProjectDescription";
 import "./ProjectCarousel.css";
-import { projects } from "../Constants/ProjectsData";
+import { projects } from "../../Constants/LandingPage/ProjectsData";
 
 const ProjectsCarousel = () => {
   const [activeProject, setActiveProject] = useState(projects[0]);

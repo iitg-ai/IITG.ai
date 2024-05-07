@@ -1,6 +1,6 @@
 import React from "react";
-import GithubIcon from "../Icons/GithubIcon";
-import LinkedInIcon from "../Icons/LinkedInIcon";
+import GithubIcon from "../../Icons/GithubIcon";
+import LinkedInIcon from "../../Icons/LinkedInIcon";
 import "./TeamMemberMobile.css";
 
 const TeamMemberMobile = (props) => {

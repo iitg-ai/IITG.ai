@@ -1,8 +1,8 @@
 import React from "react";
-import Card from "../Landing/Card";
+import Card from "../../Landing/ThreeLineDescription";
 import WeekDescCard from "./WeekDescCard";
-import Hackathon1 from "../../Images/Hackathon1.svg";
-import Hackathon2 from "../../Images/Hackathon2.svg";
+import Hackathon1 from "../../../Images/Hackathon1.svg";
+import Hackathon2 from "../../../Images/Hackathon2.svg";
 
 const CourseCards = () => {
   return (

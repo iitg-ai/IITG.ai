@@ -1,6 +1,6 @@
 import React from "react";
 import Leaderboard from "../Components/CoursePage/Leaderboard/Leaderboard";
-import CourseHeader from "../Components/CoursePage/CourseHeader";
+import CourseHeader from "../Components/CoursePage/MainPage/CoursePageHeader";
 
 const LeaderboardPage = () => {
   return (

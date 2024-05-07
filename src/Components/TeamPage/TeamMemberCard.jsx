@@ -1,7 +1,7 @@
 import React from "react";
 import devansh from "./devansh.jpg";
-import GithubIcon from "../Icons/GithubIcon";
-import LinkedInIcon from "../Icons/LinkedInIcon";
+import GithubIcon from "../../Icons/GithubIcon";
+import LinkedInIcon from "../../Icons/LinkedInIcon";
 
 const TeamMemberCard = () => {
   return (

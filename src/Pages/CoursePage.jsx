@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import FancyWords from "../Images/FancyWords.svg";
-import CourseTable from "../Components/CoursePage/CourseTable";
-import CourseCards from "../Components/CoursePage/6Cards";
+import CourseTable from "../Components/CoursePage/CourseTable/CourseTable";
+import CourseCards from "../Components/CoursePage/MainPage/6Cards";
 import Weekss from "../Images/Weekss.svg";
 import "./Bored.css";
-import CourseHeader from "../Components/CoursePage/CourseHeader";
+import CourseHeader from "../Components/CoursePage/MainPage/CoursePageHeader";
 import { Link } from "react-router-dom";
 
 const CoursePage = () => {

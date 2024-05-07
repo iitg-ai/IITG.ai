@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import Card from "./ThreeLineDescription";
 import temp1 from "../../Images/temp1.svg";
 import temp2 from "../../Images/temp2.svg";
 import { Link } from "react-router-dom";

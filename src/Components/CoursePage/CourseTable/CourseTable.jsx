@@ -6,7 +6,7 @@ import Week5Grid from "./Week5Grid";
 import Week6Grid from "./Week6Grid";
 import AdditionalMaterials from "./AdditionalMaterials";
 import TableHeader from "./TableHeader";
-import "./navstyles.css";
+import "./CourseTableNavStyles.css";
 
 const CourseTable = () => {
   const [whichWeek, setWhichWeek] = useState(1);
@@ -98,13 +98,14 @@ const CourseTable = () => {
           Week 5
         </button>
         <button
+          // className="btn-enabled"
           disabled
           className="btn-disabled"
           onClick={() => {
             changeWeek(5);
           }}
         >
-          Week 6 (coming soon)
+          Week 6
         </button>
         <button
           disabled
@@ -132,7 +133,7 @@ const CourseTable = () => {
             ) : whichWeek === 4 ? (
               <Week5Grid />
             ) : whichWeek === 5 ? (
-              <Week5Grid />
+              <Week6Grid />
             ) : whichWeek === 6 ? (
               <Week6Grid />
             ) : (
